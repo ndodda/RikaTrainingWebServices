@@ -1,0 +1,46 @@
+Status: FAILED
+Time Taken: 98
+Size: 3295
+Timestamp: Tue Aug 12 05:46:28 PDT 2014
+TestStep: MyRequest
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8800000]
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://ajax.googleapis.com
+URL: https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=scarf
+
+---------------- Request ---------------------------
+Host: [ajax.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=scarf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: ajax.googleapis.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+X-Embedded-Status: [200]
+#status#: [HTTP/1.1 200 OK]
+Expires: [Fri, 01 Jan 1990 00:00:00 GMT]
+X-XSS-Protection: [1; mode=block]
+Alternate-Protocol: [443:quic]
+Server: [GSE]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+Pragma: [no-cache]
+X-Content-Type-Options: [nosniff]
+X-Frame-Options: [SAMEORIGIN]
+Date: [Tue, 12 Aug 2014 12:46:35 GMT]
+Transfer-Encoding: [chunked]
+Content-Type: [text/javascript; charset=utf-8]
+
+{"responseData": {"results":[{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://shop.nordstrom.com/c/scarves-wraps","url":"http://shop.nordstrom.com/c/scarves-wraps","visibleUrl":"shop.nordstrom.com","cacheUrl":"http://www.google.com/search?q\u003dcache:J-C3fb9voDIJ:shop.nordstrom.com","title":"All \u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps | Nordstrom","titleNoFormatting":"All Scarves \u0026amp; Wraps | Nordstrom","content":"Find a great selection of \u003cb\u003escarves\u003c/b\u003e \u0026amp; wraps at Nordstrom.com. Browse all \u003cb\u003escarves\u003c/b\u003e, \nwraps \u0026amp; shawls in the latest collection. Free shipping \u0026amp; returns."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://en.wikipedia.org/wiki/Scarf","url":"http://en.wikipedia.org/wiki/Scarf","visibleUrl":"en.wikipedia.org","cacheUrl":"http://www.google.com/search?q\u003dcache:n257c7rGMSsJ:en.wikipedia.org","title":"\u003cb\u003eScarf\u003c/b\u003e - Wikipedia, the free encyclopedia","titleNoFormatting":"Scarf - Wikipedia, the free encyclopedia","content":"A \u003cb\u003escarf\u003c/b\u003e, also known as a Kremer, muffler or neck-wrap, is a piece of fabric worn \naround the neck, or near the head or around the waist for warmth, cleanliness, ..."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.overstock.com/Clothing-Shoes/Scarves-Wraps/955/cat.html","url":"http://www.overstock.com/Clothing-Shoes/Scarves-Wraps/955/cat.html","visibleUrl":"www.overstock.com","cacheUrl":"http://www.google.com/search?q\u003dcache:owbd5OCE-2QJ:www.overstock.com","title":"\u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps | Overstock™ Shopping - Great Deals on \u003cb\u003eScarves\u003c/b\u003e \u003cb\u003e...\u003c/b\u003e","titleNoFormatting":"Scarves \u0026amp; Wraps | Overstock™ Shopping - Great Deals on Scarves ...","content":"\u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps: Get 5% in rewards with Club O and free shipping,delivery on \norders over $50* at Overstock™ - Your Online \u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps Destination!"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.forever21.com/product/Category.aspx?br\u003df21\u0026category\u003dwhatsnew_acc_scarves","url":"http://www.forever21.com/product/Category.aspx%3Fbr%3Df21%26category%3Dwhatsnew_acc_scarves","visibleUrl":"www.forever21.com","cacheUrl":"http://www.google.com/search?q\u003dcache:GwVVz2cskAsJ:www.forever21.com","title":"\u003cb\u003eScarves\u003c/b\u003e - Forever 21","titleNoFormatting":"Scarves - Forever 21","content":"Help; Contact Us · Track Orders · FAQ\u0026#39;s · Shipping Info. Quick Links; Gift Cards · \nSize Guide · My account · Store locator. Trending; Denim · Plaid · Back to School\n ..."}],"cursor":{"resultCount":"8,800,000","pages":[{"start":"0","label":1},{"start":"4","label":2},{"start":"8","label":3},{"start":"12","label":4},{"start":"16","label":5},{"start":"20","label":6},{"start":"24","label":7},{"start":"28","label":8}],"estimatedResultCount":"8800000","currentPageIndex":0,"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026hl\u003den\u0026q\u003dscarf","searchResultTime":"0.22"}}, "responseDetails": null, "responseStatus": 200}

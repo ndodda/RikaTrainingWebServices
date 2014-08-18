@@ -1,0 +1,18 @@
+2014-08-17 23:46:24,189 WARN  [SoapUI] Missing folder [C:\Users\ndodda\workspace\WebServicesPractice\ext] for external libraries
+2014-08-17 23:46:24,429 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 23:46:26,629 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 23:46:27,449 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/TVGuideSearch/RESTTVGuideSearch-soapui-project.xml]
+2014-08-17 23:46:27,800 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [RESTTVGuideSearch]
+2014-08-17 23:46:27,803 INFO  [SoapUIProTestCaseRunner] Running Project [RESTTVGuideSearch], runType = SEQUENTIAL
+2014-08-17 23:46:27,820 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-17 23:46:27,831 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 23:46:27,838 INFO  [SoapUIProTestCaseRunner] running step [Search - Request 1]
+2014-08-17 23:46:28,710 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 23:46:29,121 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 23:46:29,121 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 23:46:29,121 INFO  [SoapUIProTestCaseRunner] running step [Search - Request 1]
+2014-08-17 23:46:29,429 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 23:46:29,483 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 23:46:29,483 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 23:46:29,484 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 591ms, status: FINISHED
+2014-08-17 23:46:29,485 INFO  [SoapUIProTestCaseRunner] Project [RESTTVGuideSearch] finished with status [FINISHED] in 1674ms
