@@ -1,0 +1,52 @@
+Status: OK
+Time Taken: 317
+Size: 988
+Timestamp: Sat Aug 16 23:06:50 PDT 2014
+TestStep: MyRequest
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://www.webservicex.net/stockquote.asmx
+
+---------------- Request ---------------------------
+Request Headers: Host : www.webservicex.net
+Content-Length : 300
+SOAPAction : "http://www.webserviceX.NET/GetQuote"
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <!--Optional:-->
+         <web:symbol>KO</web:symbol>
+      </web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-AspNet-Version : 4.0.30319
+Date : Sun, 17 Aug 2014 06:07:10 GMT
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 OK
+Content-Length : 625
+Content-Encoding : gzip
+Content-Type : text/xml; charset=utf-8
+X-Powered-By : ASP.NET
+Server : Microsoft-IIS/7.0
+Cache-Control : private, max-age=0
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetQuoteResponse xmlns="http://www.webserviceX.NET/">
+         <GetQuoteResult><![CDATA[<StockQuotes><Stock><Symbol>KO</Symbol><Last>40.88</Last><Date>8/15/2014</Date><Time>4:00pm</Time><Change>+0.70</Change><Open>40.85</Open><High>41.15</High><Low>40.66</Low><Volume>23221550</Volume><MktCap>179.3B</MktCap><PreviousClose>40.18</PreviousClose><PercentageChange>+1.74%</PercentageChange><AnnRange>36.83 - 42.57</AnnRange><Earns>1.87</Earns><P-E>21.49</P-E><Name>Coca-Cola Company</Name></Stock></StockQuotes>]]></GetQuoteResult>
+      </GetQuoteResponse>
+   </soap:Body>
+</soap:Envelope>

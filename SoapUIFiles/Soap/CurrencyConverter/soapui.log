@@ -1,0 +1,27 @@
+2014-08-16 22:56:45,499 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-16 22:56:45,718 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-16 22:56:47,531 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-16 22:56:47,533 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-16 22:56:48,659 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/CurrencyConverter/SOAPCurrencyConvertor-soapui-project.xml]
+2014-08-16 22:56:48,890 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [SOAPCurrencyConvertor]
+2014-08-16 22:56:48,892 INFO  [SoapUIProTestCaseRunner] Running Project [SOAPCurrencyConvertor], runType = SEQUENTIAL
+2014-08-16 22:56:48,921 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-16 22:56:48,927 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-16 22:56:48,933 INFO  [SoapUIProTestCaseRunner] running step [ConversionRate - Request 1]
+2014-08-16 22:56:49,386 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 22:56:49,390 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 22:56:49,589 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-16 22:56:49,593 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 22:56:49,595 INFO  [SoapUIProTestCaseRunner] running step [ConversionRate - Request 1]
+2014-08-16 22:56:49,930 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 22:56:49,934 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 22:56:49,937 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-16 22:56:49,938 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 22:56:50,074 INFO  [SoapUIProTestCaseRunner] running step [ConversionRate - Request 1]
+2014-08-16 22:56:50,339 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 22:56:50,345 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 22:56:50,348 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-16 22:56:50,351 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 22:56:50,400 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 1049ms, status: FINISHED
+2014-08-16 22:56:50,401 INFO  [SoapUIProTestCaseRunner] Project [SOAPCurrencyConvertor] finished with status [FINISHED] in 1504ms
+2014-08-16 22:56:51,832 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/CurrencyConverter/Results/index.html

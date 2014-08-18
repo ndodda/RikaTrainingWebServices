@@ -1,0 +1,1254 @@
+Status: UNKNOWN
+Time Taken: 1766
+Size: 114004
+Timestamp: Sun Aug 17 22:30:01 PDT 2014
+TestStep: Results - Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://www.youtube.com
+URL: https://www.youtube.com/results?search_query=harlem%20shake
+
+---------------- Request ---------------------------
+Host: [www.youtube.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET https://www.youtube.com/results?search_query=harlem%20shake HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: www.youtube.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+#status#: [HTTP/1.1 200 OK]
+Expires: [Tue, 27 Apr 1971 19:44:06 EST]
+X-XSS-Protection: [1; mode=block; report=https://www.google.com/appserve/security-bugs/log/youtube]
+Alternate-Protocol: [443:quic]
+Set-Cookie: [YSC=4xsfdPAZ3tw; path=/; domain=.youtube.com; httponly, VISITOR_INFO1_LIVE=VSfYPyKtKmI; path=/; domain=.youtube.com; expires=Sat, 18-Apr-2015 17:23:06 GMT]
+Server: [gwiseguy/2.0]
+Cache-Control: [no-cache]
+X-Content-Type-Options: [nosniff]
+X-Frame-Options: [SAMEORIGIN]
+Date: [Mon, 18 Aug 2014 05:30:06 GMT]
+Transfer-Encoding: [chunked]
+P3P: [CP="This is not a P3P policy! See http://support.google.com/accounts/bin/answer.py?answer=151657&hl=en for more info."]
+Content-Type: [text/html; charset=utf-8]
+
+  <!DOCTYPE html><html lang="en" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;}};ytcsi.perf = window.performance || window.mozPerformance ||window.msPerformance || window.webkitPerformance;ytcsi.tick('_start', ytcsi.perf ? ytcsi.perf.timing.responseStart : null);if (document.webkitVisibilityState == 'prerender') {ytcsi.info('prerender', 1);document.addEventListener('webkitvisibilitychange', function() {ytcsi.tick('_start');}, false);}</script>  <script>
+    try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (element.className.match(/(^| )yt-can-buffer( |$)/)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+    (function(){function a(g,h,b){var k=document.getElementsByTagName("html")[0],e=[k.className];g&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(e.push("guide-pinned"),h&&e.push("show-guide"));b&&(b=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&g&&h&&(b-=230),e.push(" ",1262<=b?"content-snap-width-3":1056<=b?"content-snap-width-2":"content-snap-width-1"));k.className=e.join(" ")}
+var c=["yt","www","masthead","sizing","runBeforeBodyIsReady"],d=this;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var f;c.length&&(f=c.shift());)c.length||void 0===a?d[f]?d=d[f]:d=d[f]={}:d[f]=a;})();
+yt.www.masthead.sizing.runBeforeBodyIsReady(true,true,false);
+  </script>
+
+
+
+        <script src="//s.ytimg.com/yts/jsbin/www-scheduler-vflRVH8LE/www-scheduler.js" type="text/javascript" name="www-scheduler"></script>
+
+
+  
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vflLfY0qZ.css" name="www-core">
+  
+
+    
+<title>harlem shake - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="alternate" media="handheld" href="https://m.youtube.com/results?search_query=harlem+shake"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/results?search_query=harlem+shake"><meta name="description" content="Share your videos with friends, family, and the world"><meta name="keywords" content="video, sharing, camera phone, video phone, free, upload">  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vflQMkUGd.css" name="www-pageframe">
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-guide-vfle4A3WE.css" name="www-guide">
+    <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-results-vfl42wfcs.css" name="www-results">
+
+<style>.ytp-user-idle.autohide-controls.playing-mode:not(.seeking-mode) .html5-player-chrome:not(.ytp-block-autohide), .ytp-user-idle.ideal-aspect.autohide-controls-aspect.playing-mode:not(.seeking-mode) .html5-player-chrome:not(.ytp-block-autohide), html[data-player-size=fullscreen] .ytp-user-idle.autohide-controls-fullscreen.playing-mode:not(.seeking-mode) .html5-player-chrome:not(.ytp-block-autohide), .ytp-user-idle.autohide-controls.playing-mode:not(.seeking-mode) .ytp-progress-bar-container:not(.ytp-block-autohide), .ytp-user-idle.ideal-aspect.autohide-controls-aspect.playing-mode:not(.seeking-mode) .ytp-progress-bar-container:not(.ytp-block-autohide), html[data-player-size=fullscreen] .ytp-user-idle.autohide-controls-fullscreen.playing-mode:not(.seeking-mode) .ytp-progress-bar-container:not(.ytp-block-autohide) {opacity: 1} .ytp-user-idle.autohide-controls.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .html5-player-chrome,.ytp-user-idle.ideal-aspect.autohide-controls-aspect.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .html5-player-chrome, html[data-player-size=fullscreen] .ytp-user-idle.autohide-controls-fullscreen.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .html5-player-chrome, .ytp-user-idle.autohide-controls.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .ytp-progress-bar-container, .ytp-user-idle.ideal-aspect.autohide-controls-aspect.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .ytp-progress-bar-container, html[data-player-size=fullscreen] .ytp-user-idle.autohide-controls-fullscreen.playing-mode:not(.seeking-mode) .html5-video-controls:not(.ytp-block-autohide) .ytp-progress-bar-container { -moz-transition: opacity .25s cubic-bezier(0.4,0,0.2,1); -webkit-transition: opacity .25s cubic-bezier(0.4,0,0.2,1); transition: opacity .25s cubic-bezier(0.4,0,0.2,1); opacity: 0}</style></head>
+    <body dir="ltr" class="  ltr       site-center-aligned site-as-giant-card guide-pinning-enabled appbar-hidden     not-nirvana-dogfood nirvana-playlist  not-watch8    delayed-frame-styles-not-in  " id="body">
+
+  <div id="early-body">    <iframe id="pyv-iframe-search" style="display:none;" src=""></iframe><script>var yt = yt || {};yt.www = yt.www || {};yt.www.ads = yt.www.ads || {};yt.www.ads.pyvsearch = yt.www.ads.pyvsearch || {};yt.www.ads.pyvsearch.searchTopAdsFromAfc = null;yt.www.ads.pyvsearch.pageJsInit = false;yt.www.ads.pyvsearch.requestAfcAd = function() {var iframeContent = "  \u003cscript\u003e\n    (function() {\n      var called = false;\n      parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCbkWrapper = function(ads) {\n        clearTimeout(parent.yt.www.ads.pyvsearch.cancelTimer);\n        if (called) {\n          return;\n        }\n        called = true;\n        if (parent.yt.www.ads.pyvsearch.pageJsInit) {\n          parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCallback(ads);\n        } else {\n          parent.yt.www.ads.pyvsearch.searchTopAdsFromAfc = ads;\n        }\n      };\n    })();\n\n    window['google_ad_client'] = 'ca-pub-6219811747049371';\n    window['google_ad_block'] = '3';\n    window['google_max_num_ads'] = 2;\n    window['google_ad_output'] = 'js';\n    window['google_ad_type'] = 'text';\n    window['google_loeid'] = \"900225,937429,938628,946013,950611\";\n    window['google_only_pyv_ads'] = true;\n    window['google_page_url'] = parent.document.location.href;\n    window['google_ad_channel'] = \"PyvSearchAfcCpm+PyvWatchNoAdX+PyvSearchAfcNewTemplate+ytdevice_1\";\n    window['google_kw_type'] = 'broad';\n    window['google_kw'] = \"harlem shake\";\n\n      window['google_language'] = \"en\";\n\n\n\n    window['google_ad_request_done'] = parent.yt.www.ads.pyvsearch.pyvSearchTopAfcCbkWrapper;\n  \u003c\/script\u003e\n  \u003cscript s\u0072c=\"\/\/pagead2.googlesyndication.com\/pagead\/show_ads.js\"\u003e\u003c\/script\u003e\n";yt.www.ads.pyvsearch.adRequestStartTime = new Date().getTime();var frame = document.getElementById('pyv-iframe-search');var iframeDocument =frame.contentDocument || frame.contentWindow.document;iframeDocument.open();var content = '<!DOCTYPE html><html><head></head><body>' +iframeContent + '</body></html>';iframeDocument.write(content);iframeDocument.close();};yt.www.ads.pyvsearch.doAdsRequest = function() {if (window.ytcsi) {window.ytcsi.tick("resultspredclk", null, '');}clearTimeout(yt.www.ads.pyvsearch.timerId_);yt.www.ads.pyvsearch.timerId_ = setTimeout(yt.www.ads.pyvsearch.requestAfcAd, 5);yt.www.ads.pyvsearch.doAdsRequest = null;};yt.www.ads.pyvsearch.doAdsRequest();</script>
+</div>
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form><div id="masthead-positioner">  
+  <div id="yt-masthead-container" class="yt-grid-box yt-base-gutter"><div id="yt-masthead" class=""><div class="yt-masthead-logo-container ">    <a id="logo-container" href="/" title="YouTube home" class="     spf-link 
+"><img id="logo" src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube home"></a>
+  <div id="appbar-guide-button-container">
+    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" type="button" onclick=";return false;" aria-controls="appbar-guide-menu" id="appbar-guide-button" aria-label="Guide"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+    <div id="appbar-guide-button-notification-check" class="yt-valign">
+      <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-valign-content yt-sprite">
+    </div>
+  </div>
+  <div id="appbar-main-guide-notification-container"></div>
+</div><div id="yt-masthead-signin"><span id="appbar-onebar-upload-group"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=mhsb" id="upload-btn"><span class="yt-uix-button-content">Upload </span></a></span><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dsign_in_button%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dharlem%252Bshake&amp;uilel=3&amp;hl=en&amp;service=youtube"><span class="yt-uix-button-content">Sign in </span></button></div><div id="yt-masthead-content"><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;" id="search-btn" dir="ltr" tabindex="2"><span class="yt-uix-button-content">Search </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off"  class="search-term yt-uix-form-input-bidi" name="search_query" value="harlem shake" type="text" tabindex="1" title="Search"></label></div></form></div></div></div>
+    <div id="masthead-appbar-container" class="clearfix"><div id="masthead-appbar"><div id="appbar-content" class=""></div></div></div>
+
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div id="page" class="  search  branded-page-v2-secondary-column-wide  no-flex clearfix"><div id="guide" class="yt-scrollbar">      <div id="appbar-guide-menu" class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor yt-uix-scroller" role="navigation">
+    <div id="guide-container" class="vve-check" data-sessionlink="ved=CD8Q_h4&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ">
+        <div class="guide-module-content yt-scrollbar">
+    <ul class="guide-toplevel">
+            <li class="guide-section vve-check"
+    data-sessionlink="ved=CEAQ5isoAA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+      
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="what_to_watch-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/"
+    title="What to Watch"
+    data-sessionlink="ved=CEEQtSwoAA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-system"
+    data-visibility-tracking=""
+    data-external-id="what_to_watch"
+    data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D"
+  >
+    <span class="yt-valign-container">
+        <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="thumb guide-what-to-watch-icon yt-sprite">
+        <span class="display-name  no-count">
+          <span>
+            What to Watch
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section vve-check"
+    data-sessionlink="ved=CEIQ5isoAQ&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+          <h3>
+      Best of YouTube
+    </h3>
+
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCF0pVplsI8R5kcAqgtoRqoA-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCF0pVplsI8R5kcAqgtoRqoA"
+    title="Popular on YouTube"
+    data-sessionlink="ved=CEMQtSwoAA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCF0pVplsI8R5kcAqgtoRqoA"
+    data-serialized-endpoint="0qDduQEaEhhVQ0YwcFZwbHNJOFI1a2NBcWd0b1Jxb0E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/F0pVplsI8R5kcAqgtoRqoA/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Popular on YouTube
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    title="Music"
+    data-sessionlink="ved=CEQQtSwoAQ&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/-9-kyTW8ZkZNDHQJ6FgpwQ/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Music
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"
+    title="Sports"
+    data-sessionlink="ved=CEUQtSwoAg&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCEgdi0XIXXZ-qJOFPf4JSKw"
+    data-serialized-endpoint="0qDduQEaEhhVQ0VnZGkwWElYWFotcUpPRlBmNEpTS3c%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/Egdi0XIXXZ-qJOFPf4JSKw/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Sports
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCOpNcN46UbXVtpKMrmU4Abg-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCOpNcN46UbXVtpKMrmU4Abg"
+    title="Gaming"
+    data-sessionlink="ved=CEYQtSwoAw&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCOpNcN46UbXVtpKMrmU4Abg"
+    data-serialized-endpoint="0qDduQEaEhhVQ09wTmNONDZVYlhWdHBLTXJtVTRBYmc%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/OpNcN46UbXVtpKMrmU4Abg/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Gaming
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UC3yA8nDwraeOfnYfBWun83g-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UC3yA8nDwraeOfnYfBWun83g"
+    title="Education"
+    data-sessionlink="ved=CEcQtSwoBA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UC3yA8nDwraeOfnYfBWun83g"
+    data-serialized-endpoint="0qDduQEaEhhVQzN5QThuRHdyYWVPZm5ZZkJXdW44M2c%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/3yA8nDwraeOfnYfBWun83g/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Education
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCczhp4wznQWonO7Pb8HQ2MQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCczhp4wznQWonO7Pb8HQ2MQ"
+    title="Movies"
+    data-sessionlink="ved=CEgQtSwoBQ&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCczhp4wznQWonO7Pb8HQ2MQ"
+    data-serialized-endpoint="0qDduQEaEhhVQ2N6aHA0d3puUVdvbk83UGI4SFEyTVE%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="https://yt3.ggpht.com/-DIjHsEMMaRE/AAAAAAAAAAI/AAAAAAAAAAA/q6whn_JcUH8/s88-c-k-no/photo.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Movies
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCl8dMTqDrJQ0c8y23UBu4kQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCl8dMTqDrJQ0c8y23UBu4kQ"
+    title="TV Shows"
+    data-sessionlink="ved=CEkQtSwoBg&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCl8dMTqDrJQ0c8y23UBu4kQ"
+    data-serialized-endpoint="0qDduQEaEhhVQ2w4ZE1UcURySlEwYzh5MjNVQnU0a1E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="https://yt3.ggpht.com/-hFxEr8QHrvM/AAAAAAAAAAI/AAAAAAAAAAA/REjjL0X3gIs/s88-c-k-no/photo.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            TV Shows
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCYfdidRxbB8Qhf0Nx7ioOYw-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw"
+    title="News"
+    data-sessionlink="ved=CEoQtSwoBw&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCYfdidRxbB8Qhf0Nx7ioOYw"
+    data-serialized-endpoint="0qDduQEaEhhVQ1lmZGlkUnhiQjhRaGYwTng3aW9PWXc%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="//i.ytimg.com/i/YfdidRxbB8Qhf0Nx7ioOYw/1.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            News
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="UCBR8-60-B28hp2BmDPdntcQ-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-link   "
+    href="/channel/UCBR8-60-B28hp2BmDPdntcQ"
+    title="Spotlight"
+    data-sessionlink="ved=CEsQtSwoCA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="UCBR8-60-B28hp2BmDPdntcQ"
+    data-serialized-endpoint="0qDduQEaEhhVQ0JSOC02MC1CMjhocDJCbURQZG50Y1E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" data-thumb="https://yt3.ggpht.com/-dL2jeHlm2Ok/AAAAAAAAAAI/AAAAAAAAAAA/ZCMMkRj-hrw/s88-c-k-no/photo.jpg" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            Spotlight
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section vve-check"
+    data-sessionlink="ved=CEwQ5isoAg&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ"
+    data-visibility-tracking="">
+    <div class="guide-item-container personal-item">
+      
+      <ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+              <li class="vve-check guide-channel guide-notification-item overflowable-list-item " id="guide_builder-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channels"
+    title="Browse channels"
+    data-sessionlink="ved=CE0QtSwoAA&amp;ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-manage"
+    data-visibility-tracking=""
+    data-external-id="guide_builder"
+    data-serialized-endpoint="0qPduQECCAE%3D"
+  >
+    <span class="yt-valign-container">
+        <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="thumb guide-builder-icon yt-sprite">
+        <span class="display-name  no-count">
+          <span>
+            Browse channels
+          </span>
+        </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section guide-header signup-promo ">
+    <p>
+      Sign in now to see your channels and recommendations!
+    </p>
+    <div id="guide-builder-promo-buttons" class="signed-out clearfix">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dsign_in_promo%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dharlem%252Bshake&amp;uilel=3&amp;hl=en&amp;service=youtube" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ"><span class="yt-uix-button-content">Sign In </span></a>
+    </div>
+  </li>
+
+    </ul>
+  </div>
+
+    </div>
+  </div>
+  <div id="appbar-guide-notifications" class="hid">
+        <div id="appbar-guide-notification-watch-later-video-added">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Added to Watch Later</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-watch-later-video-removed">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Removed from Watch Later</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-subscription">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Subscription added</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-unsubscription">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Subscription removed</span></span></div>
+    -->
+  </div>
+
+
+
+      <div id="appbar-guide-notification-playlist-like">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Saved to Playlists</span></span></div>
+    -->
+  </div>
+
+
+      <div id="appbar-guide-notification-playlist-unlike">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Removed from Playlists</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-video-added">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Added to playlist</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-playlist-video-removed">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Removed from playlist</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-video-like">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Added to Liked videos</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-video-unlike">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Removed from Liked videos</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-event-reminder-set">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">You&#39;ll be reminded about this event</span></span></div>
+    -->
+  </div>
+
+
+    <div id="appbar-guide-notification-event-reminder-removed">
+    <!--
+    <div class="appbar-guide-notification "><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">Event reminder removed</span></span></div>
+    -->
+  </div>
+
+
+  </div>
+  <div id="appbar-guide-item-templates" class="hid">
+        <div id="appbar-guide-item-template-playlist">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-playlists"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="thumb guide-playlists-icon yt-sprite">
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification"><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+    <div id="appbar-guide-item-template-mix">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-playlists"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="thumb guide-mix-icon yt-sprite">
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification"><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+    <div id="appbar-guide-item-template-channel">
+      <!--
+          <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item"
+      data-visibility-tracking="" aria-role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="__URL__"
+    title="__TITLE__"
+    data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ&amp;feature=g-channel"
+    data-visibility-tracking=""
+    data-external-id="__ID__"
+    data-serialized-endpoint=""
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="__THUMBNAIL_URL__" alt="" aria-hidden="true" width="20"  height="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification"><span class="appbar-guide-notification-content-wrapper yt-valign"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="appbar-guide-notification-icon yt-sprite"><span class="appbar-guide-notification-text-content">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+    </div>
+
+  </div>
+
+</div><div id="alerts" class="content-alignment">  
+</div><div id="header">  
+</div><div id="player" class="  off-screen  "><div id="theater-background"></div>  <div id="player-mole-container">
+
+    <div id="player-unavailable" class="  hid  ">
+      
+    </div>
+
+      <div id="player-api" class="player-width player-height off-screen-target player-api"></div>
+
+        <script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"min_version": "8.0.0", "args": {"cr": "US", "enablejsapi": 1, "fexp": "900225,902408,927622,931983,934024,934030,937429,938628,946013,950611", "ssl": "1", "hl": "en_US", "autoplay": "0"}, "html5": false, "assets": {"html": "\/html5_player_template", "css": "\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflLwZXJW.css", "js": "\/\/s.ytimg.com\/yts\/jsbin\/html5player-en_US-vfl4b4S6W\/html5player.js"}, "url_v9as2": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflZsDuOu\/cps.swf", "params": {"allowscriptaccess": "always", "allowfullscreen": "true", "bgcolor": "#000000"}, "attrs": {"id": "movie_player"}, "sts": 16295, "url": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflZsDuOu\/watch_as3.swf", "url_v8": "https:\/\/s.ytimg.com\/yts\/swfbin\/player-vflZsDuOu\/cps.swf"};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};</script>
+
+
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div id="content" class="  content-alignment  
+">  
+
+
+
+
+  <div class="branded-page-v2-container branded-page-base-bold-titles branded-page-v2-container-flex-width" >
+
+    <div class="branded-page-v2-col-container">
+      <div class="branded-page-v2-col-container-inner">
+        <div class="branded-page-v2-primary-col">
+          <div class="   yt-card  clearfix">
+                <div class="branded-page-v2-primary-col-header-container branded-page-v2-primary-column-content">
+      
+    </div>
+  <div class="branded-page-v2-body branded-page-v2-primary-column-content" id="gh-activityfeed">
+            <noscript>
+      <div class="yt-alert yt-alert-default yt-alert-error  ">  <div class="yt-alert-icon">
+    <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="icon master-sprite yt-sprite">
+  </div>
+<div class="yt-alert-buttons"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" type="button" onclick=";return false;" data-close-parent-class="yt-alert"><span class="yt-uix-button-content">Close </span></button></div><div class="yt-alert-content" role="alert">    <span class="yt-alert-vertical-trick"></span>
+    <div class="yt-alert-message">
+            Hello, you seem to have JavaScript turned off. Please enable it to see search results properly.
+    </div>
+</div></div>
+
+  </noscript>
+
+
+
+  <div class="search-header yt-uix-expander yt-uix-expander-collapsed">
+      <div class="filter-top">
+    <div class="filter-bar-container">
+      <div class="filter-button-container">
+        <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default filter-button yt-uix-expander-head" type="button" onclick=";return false;" data-button-menu-id="some-nonexistent-menu" data-button-action="" data-button-toggle="true"><span class="yt-uix-button-content">Filters </span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+      </div>
+      <div class="filter-crumb-spacer"></div>
+      <p class="num-results">About <strong>9,660,000</strong> results</p>
+    </div>
+  </div>
+
+    <div id="filter-dropdown" class="yt-uix-expander-body"><div class="filter-col"><h4 class="filter-col-title">Upload date</h4><ul><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Last hour" href="/results?search_query=harlem+shake&amp;lclk=hour&amp;filters=hour"><span class="filter-text filter-ghost">Last hour</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Today" href="/results?search_query=harlem+shake&amp;lclk=today&amp;filters=today"><span class="filter-text filter-ghost">Today</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, This week" href="/results?search_query=harlem+shake&amp;lclk=week&amp;filters=week"><span class="filter-text filter-ghost">This week</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, This month" href="/results?search_query=harlem+shake&amp;lclk=month&amp;filters=month"><span class="filter-text filter-ghost">This month</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, This year" href="/results?search_query=harlem+shake&amp;lclk=year&amp;filters=year"><span class="filter-text filter-ghost">This year</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Result type</h4><ul><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Video" href="/results?search_query=harlem+shake&amp;lclk=video&amp;filters=video"><span class="filter-text filter-ghost">Video</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Channel" href="/results?search_query=harlem+shake&amp;lclk=channel&amp;filters=channel"><span class="filter-text filter-ghost">Channel</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Playlist" href="/results?search_query=harlem+shake&amp;lclk=playlist&amp;filters=playlist"><span class="filter-text filter-ghost">Playlist</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Movie" href="/results?search_query=harlem+shake&amp;lclk=movie&amp;filters=movie"><span class="filter-text filter-ghost">Movie</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Show" href="/results?search_query=harlem+shake&amp;lclk=show&amp;filters=show"><span class="filter-text filter-ghost">Show</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Duration</h4><ul><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Short (~4 minutes)" href="/results?search_query=harlem+shake&amp;lclk=short&amp;filters=short"><span class="filter-text filter-ghost">Short (~4 minutes)</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Long (20~ minutes)" href="/results?search_query=harlem+shake&amp;lclk=long&amp;filters=long"><span class="filter-text filter-ghost">Long (20~ minutes)</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Features</h4><ul><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, HD (high definition)" href="/results?search_query=harlem+shake&amp;lclk=hd&amp;filters=hd"><span class="filter-text filter-ghost">HD (high definition)</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, CC (closed caption)" href="/results?search_query=harlem+shake&amp;lclk=cc&amp;filters=cc"><span class="filter-text filter-ghost">CC (closed caption)</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Creative Commons" href="/results?search_query=harlem+shake&amp;lclk=creativecommons&amp;filters=creativecommons"><span class="filter-text filter-ghost">Creative Commons</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, 3D" href="/results?search_query=harlem+shake&amp;lclk=3d&amp;filters=3d"><span class="filter-text filter-ghost">3D</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Live" href="/results?search_query=harlem+shake&amp;lclk=live&amp;filters=live"><span class="filter-text filter-ghost">Live</span></a>
+</li><li>
+  
+
+<a class="filter  spf-link "  title="Search for harlem shake, Purchased" href="/results?search_query=harlem+shake&amp;lclk=purchased&amp;filters=purchased"><span class="filter-text filter-ghost">Purchased</span></a>
+</li></ul></div><div class="filter-col"><h4 class="filter-col-title">Sort by</h4><ul><li>
+
+  
+
+<span class="filter filter-sort  spf-link  filter-selected" ><span class="filter-text ">Relevance</span></span>
+</li><li>
+
+  
+
+<a class="filter filter-sort  spf-link "  href="/results?search_query=harlem+shake&amp;search_sort=video_date_uploaded"><span class="filter-text ">Upload date</span></a>
+</li><li>
+
+  
+
+<a class="filter filter-sort  spf-link "  href="/results?search_query=harlem+shake&amp;search_sort=video_view_count"><span class="filter-text ">View count</span></a>
+</li><li>
+
+  
+
+<a class="filter filter-sort  spf-link "  href="/results?search_query=harlem+shake&amp;search_sort=video_avg_rating"><span class="filter-text ">Rating</span></a>
+</li></ul></div></div>
+  </div>
+  <div id="results">
+    
+
+      <div class="pyv-afc-ads-container spf-nolink yt-section-hover-container"><div class="pyv-afc-ads-inner"><div class="pyv-afc-ads-video-template"><!--
+
+
+
+
+    <div class="yt-lockup clearfix yt-uix-tile yt-lockup-video yt-lockup-tile"
+      data-context-item-id="__video_id__"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+        <a href="__url__" class="ux-thumb-wrap yt-uix-sessionlink contains-addto  spf-link "  data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ">    <span class="video-thumb  yt-thumb yt-thumb-185"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img src="__thumbnail_url__" alt="" aria-hidden="true" width="185"  >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">__length_seconds__</span>
+
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="__video_id__"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+          <h3 class="yt-lockup-title"><a class="yt-uix-sessionlink yt-uix-tile-link  spf-link  yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr" title="__title__" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" href="__url__">__title__</a></h3>
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+<li><span class="yt-badge ad-badge-byline yt-badge-ad" >Ad</span>
+by <a href="__channel_url__" class="yt-uix-sessionlink yt-user-name  spf-link " data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" dir="ltr">__channel_name__</a></li><li>__views__ views</li>    </ul>
+  </div>
+
+
+      <div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" >
+        __second_line__<br />__third_line__
+    </div>
+
+
+  
+
+  
+
+    </div>
+    
+  </div>
+
+--></div><div class="pyv-afc-ads-channel-template"><!--
+
+
+
+    <div class="yt-lockup clearfix yt-uix-tile yt-lockup-channel yt-lockup-tile"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+        <a href="__url__" class="ux-thumb-wrap yt-uix-sessionlink  spf-link " data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ">    <span class="video-thumb  yt-thumb yt-thumb-104"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="__thumbnail_url__" alt="" aria-hidden="true" width="104"  height="104" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title"><a class="yt-uix-sessionlink yt-uix-tile-link  spf-link  yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr" title="__title__" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" href="__url__">__title__</a></h3>
+<div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li><span class="yt-badge ad-badge-byline yt-badge-ad" >Ad</span>
+by <a href="__channel_url__" class="yt-uix-sessionlink yt-user-name  spf-link " data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" dir="ltr">__channel_name__</a></li></ul></div>    <div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">
+        __second_line__<br />__third_line__
+    </div>
+<div class="yt-lockup-badges"><ul class="item-badge-line"><li class="yt-lockup-badge-item"><span class="yt-badge " >CHANNEL</span></li></ul></div>
+    </div>
+    
+  </div>
+
+--></div></div>  <div class="yt-uix-clickcard ad-info-container">
+    <span class="yt-uix-clickcard-target " data-position="bottomleft" data-orientation="vertical">
+      <span class="ad-info-icon"></span>
+    </span>
+    <div class="yt-uix-clickcard-content">
+<p>Visit Google's <a href="http://www.google.com/settings/ads">Ad Settings</a> to learn more about how ads are targeted or to opt out of personalized ads.</p>
+    </div>
+  </div>
+</div>
+
+
+      
+<ol class="section-list">
+<li>
+<ol class="item-section">
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="8f7wj_RcqYk"><div class="yt-lockup-thumbnail"><a href="/watch?v=8f7wj_RcqYk" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDwQ3DAYACITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="//i.ytimg.com/vi/8f7wj_RcqYk/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">5:30</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="8f7wj_RcqYk"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=8f7wj_RcqYk" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDwQ3DAYACITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">The Harlem Shake [BEST ONES!]</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/GoodClipsDaily" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC1PH19qJAU3keIWu0HX9oJQ" data-sessionlink="itct=CDwQ3DAYACITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">GoodClipsDaily</a></b></li><li>1 year ago</li><li>73,565,479 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Make sure you check out IGN: <a href="http://www.youtube.com/user/ignentertainment" target="_blank" title="http://www.youtube.com/user/ignentertainment" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.youtube.com/user/ignentertainment</a> LIKE THIS PAGE: ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="3R8HGsbI4QY"><div class="yt-lockup-thumbnail"><a href="/watch?v=3R8HGsbI4QY" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDkQ3DAYASITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="//i.ytimg.com/vi/3R8HGsbI4QY/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:26</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="3R8HGsbI4QY"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=3R8HGsbI4QY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDkQ3DAYASITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">TOP 10  - BEST HARLEM SHAKE VERSIONS</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/DakamAndRuben" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCfdKFMUr1z4qF2E4ViEvfKQ" data-sessionlink="itct=CDkQ3DAYASITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">Ruben Alencastre</a></b></li><li>1 year ago</li><li>64,332,937 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">FACEBOOK : <a href="https://www.facebook.com/RubenAlencastre" target="_blank" title="https://www.facebook.com/RubenAlencastre" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">https://www.facebook.com/RubenAlencastre</a> ATTENTION: Soon I will do the &quot;TOP 25 - BEST OF <b>HARLEM SHAKE</b> ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="4hpEnLtqUDg"><div class="yt-lockup-thumbnail"><a href="/watch?v=4hpEnLtqUDg" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDYQ3DAYAiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="//i.ytimg.com/vi/4hpEnLtqUDg/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">0:34</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="4hpEnLtqUDg"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=4hpEnLtqUDg" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDYQ3DAYAiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Harlem Shake (Original Army Edition)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/kennethaakonsen" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCZ62cv-sUKAp61guWzokkMg" data-sessionlink="itct=CDYQ3DAYAiITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">Kenneth Håkonsen</a></b></li><li>1 year ago</li><li>102,985,423 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">COPYRIGHT© Shout out to Baauer - <b>Harlem Shake</b>. THIS IS THE ORIGINAL NORWEGIAN ARMY SHAKE! <b>Harlem shake</b>.</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="Bk1_DbbzSdY"><div class="yt-lockup-thumbnail"><a href="/watch?v=Bk1_DbbzSdY" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDMQ3DAYAyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="//i.ytimg.com/vi/Bk1_DbbzSdY/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:18</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Bk1_DbbzSdY"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=Bk1_DbbzSdY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDMQ3DAYAyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Baauer - Harlem Shake (HQ Full Version)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/fungmungus" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCESnbC_Ok1YcRkzXdJtoFQA" data-sessionlink="itct=CDMQ3DAYAyITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">fungmungus</a></b></li><li>2 years ago</li><li>44,606,005 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Purchase on Itunes: <a href="http://bit.ly/" target="_blank" title="http://bit.ly/" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://bit.ly/</a><b>HARLEMSHAKE</b> Purchase on Beatport: <a href="http://s.beatport.com/JeffreeVol3BP" target="_blank" title="http://s.beatport.com/JeffreeVol3BP" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://s.beatport.com/JeffreeVol3BP</a> Preview and Stream ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-playlist clearfix yt-uix-tile"><div class="yt-lockup-thumbnail yt-pl-thumb yt-pl-thumb-fluid"><a href="/watch?v=3R8HGsbI4QY&amp;list=RD3R8HGsbI4QY" class="yt-pl-thumb-link yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQuzcYBCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA"><div class="video-thumb"><img src="//i.ytimg.com/vi/3R8HGsbI4QY/mqdefault.jpg" width="185" height="104"/></div><div class="sidebar"><span class="yt-pl-sidebar-content yt-valign"><span class="yt-valign-container"><span class="formatted-video-count-label"><b>50+</b> videos</span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-pl-icon yt-pl-icon-mix yt-sprite"></span></span></div><div class="yt-pl-thumb-overlay"><span class="yt-pl-thumb-overlay-content"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="play-icon yt-sprite"><span class="yt-pl-thumb-overlay-text">Play all</span></span></div></a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=3R8HGsbI4QY&amp;list=RD3R8HGsbI4QY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQuzcYBCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA" dir="ltr">Mix - TOP 10  - BEST HARLEM SHAKE VERSIONS</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b>YouTube</b></li></ul></div><ol class="yt-lockup-meta yt-lockup-playlist-items"><li class="yt-lockup-playlist-item clearfix"><span class="yt-lockup-playlist-item-length yt-lockup-deemphasized-text">3:26</span><a href="/watch?v=3R8HGsbI4QY&amp;list=RD3R8HGsbI4QY" class="yt-lockup-playlist-item-title yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQuzcYBCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA" dir="ltr">TOP 10  - BEST HARLEM SHAKE VERSIONS</a></li><li class="yt-lockup-playlist-item clearfix"><span class="yt-lockup-playlist-item-length yt-lockup-deemphasized-text">5:30</span><a href="/watch?v=8f7wj_RcqYk&amp;list=RD3R8HGsbI4QY" class="yt-lockup-playlist-item-title yt-uix-sessionlink     spf-link " data-sessionlink="itct=CDIQuzcYBCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA" dir="ltr">The Harlem Shake [BEST ONES!]</a></li></ol></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="NeGe7lVrXb0"><div class="yt-lockup-thumbnail"><a href="/watch?v=NeGe7lVrXb0" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC8Q3DAYBSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="//i.ytimg.com/vi/NeGe7lVrXb0/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:58</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="NeGe7lVrXb0"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=NeGe7lVrXb0" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CC8Q3DAYBSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">KIDS REACT TO HARLEM SHAKE</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/TheFineBros" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC0v-tlzsn0QZwJnkiaUSJVQ" data-sessionlink="itct=CC8Q3DAYBSITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">TheFineBros</a></b></li><li>1 year ago</li><li>26,918,063 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>Harlem Shake</b> Bonus Reactions - <a href="http://bit.ly/Y49B5s" target="_blank" title="http://bit.ly/Y49B5s" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://bit.ly/Y49B5s</a> NEW Vids Sun, Thur &amp; Sat! Subscribe: <a href="http://bit.ly/TheFineBros" target="_blank" title="http://bit.ly/TheFineBros" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://bit.ly/TheFineBros</a> Watch All ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li><li class="yt-badge-item"><span class="yt-badge " >CC</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="y_XqOckAl1A"><div class="yt-lockup-thumbnail"><a href="/watch?v=y_XqOckAl1A" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCwQ3DAYBiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/y_XqOckAl1A/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:42</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="y_XqOckAl1A"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=y_XqOckAl1A" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCwQ3DAYBiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Top 10 Harlem Shake (Sports Edition)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/MrLebron98" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC7e1M7XBjqbo28wjzrOtynw" data-sessionlink="itct=CCwQ3DAYBiITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">King of Scrubs</a></b></li><li>1 year ago</li><li>5,018,493 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Turn 10$ into 3500$+ income each month ! <a href="http://goo.gl/tlUDvG" target="_blank" title="http://goo.gl/tlUDvG" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://goo.gl/tlUDvG</a>.</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="MlPh_ycy62s"><div class="yt-lockup-thumbnail"><a href="/watch?v=MlPh_ycy62s" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCkQ3DAYByITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/MlPh_ycy62s/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">5:06</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="MlPh_ycy62s"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=MlPh_ycy62s" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCkQ3DAYByITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Harlem Shake Compilation! (BEST VIDEOS)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/EpicVideosHome" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCZ-26CDeD-VXFLFADVKppMQ" data-sessionlink="itct=CCkQ3DAYByITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">EpicVideosHome</a></b></li><li>1 year ago</li><li>39,492,295 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">It would be awesome if you could please Subscribe and like us on Facebook! <a href="http://www.facebook.com/FailHome" target="_blank" title="http://www.facebook.com/FailHome" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.facebook.com/FailHome</a> SONG NAME: ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="MPYjHEd9qMY"><div class="yt-lockup-thumbnail"><a href="/watch?v=MPYjHEd9qMY" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCYQ3DAYCCITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/MPYjHEd9qMY/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">16:37</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="MPYjHEd9qMY"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=MPYjHEd9qMY" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCYQ3DAYCCITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">EPIC HARLEM SHAKE HUGE ORIGINAL COMPILATION - THE BEST OF HARLEM SHAKE</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/chochos10" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC37l1RwEdyvQVihvyyydYjg" data-sessionlink="itct=CCYQ3DAYCCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">chochos10</a></b></li><li>1 year ago</li><li>6,548,761 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">QUIERES MÁS VIDEOS? <a href="https://www.facebook.com/elmundoviral" target="_blank" title="https://www.facebook.com/elmundoviral" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">https://www.facebook.com/elmundoviral</a> <b>Harlem Shake</b> Compilation, los mejores videos del Harlem ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="qV0LHCHf-pE"><div class="yt-lockup-thumbnail"><a href="/watch?v=qV0LHCHf-pE" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCMQ3DAYCSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/qV0LHCHf-pE/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">3:17</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="qV0LHCHf-pE"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=qV0LHCHf-pE" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCMQ3DAYCSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Baauer - Harlem Shake [Official Audio]</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/maddecent" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCywgIB7Wd2woy5se8ReOpmw" data-sessionlink="itct=CCMQ3DAYCSITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">maddecent</a></b></li><li>2 years ago</li><li>25,323,829 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Purchase on iTunes: <a href="http://smarturl.it/HarlemShakeitunes" target="_blank" title="http://smarturl.it/HarlemShakeitunes" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://smarturl.it/HarlemShakeitunes</a> Purchase on Beatport: <a href="http://s.beatport.com/JeffreeVol3BP" target="_blank" title="http://s.beatport.com/JeffreeVol3BP" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://s.beatport.com/JeffreeVol3BP</a> Mixed and ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="8vJiSSAMNWw"><div class="yt-lockup-thumbnail"><a href="/watch?v=8vJiSSAMNWw" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCAQ3DAYCiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/8vJiSSAMNWw/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">0:36</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="8vJiSSAMNWw"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=8vJiSSAMNWw" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CCAQ3DAYCiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">DO THE HARLEM SHAKE (ORIGINAL)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/DizastaMusic" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCqSHAXN5sqtyE93A-w-8Ddw" data-sessionlink="itct=CCAQ3DAYCiITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">DizastaMusic</a></b></li><li>1 year ago</li><li>52,017,956 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">People were asking for the full version so here it is. Plus, it deserves it&#39;s own video. SONG NAME: <b>Harlem Shake</b> - Baauer *ALL ...</div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="2ue_e6VWaVI"><div class="yt-lockup-thumbnail"><a href="/watch?v=2ue_e6VWaVI" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CB0Q3DAYCyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/2ue_e6VWaVI/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">14:46</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="2ue_e6VWaVI"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=2ue_e6VWaVI" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CB0Q3DAYCyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Harlem Shake Special Firefighter and Ambulance Edition</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/langerNOH112" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCZ9L3gpSf5wob_nb-wcXkVg" data-sessionlink="itct=CB0Q3DAYCyITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">Carsten L. aus N. an der V.</a></b></li><li>1 year ago</li><li>5,007,215 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Many <b>Harlem Shake</b> Videos of Firefighters and Ambulance. You want to create a <b>Harlem Shake</b> Video? <b>Harlem Shake</b> Video ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="lRRUxAccoN0"><div class="yt-lockup-thumbnail"><a href="/watch?v=lRRUxAccoN0" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBoQ3DAYDCITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/lRRUxAccoN0/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:51</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="lRRUxAccoN0"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=lRRUxAccoN0" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBoQ3DAYDCITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">The Best of Harlem Shake - 2013 - Original Baauer Harlem Shake Videos</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/DigitalCtyElectronix" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCDvgQdSogwQQK5nP02Cdy6Q" data-sessionlink="itct=CBoQ3DAYDCITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">DigitalCtyElectronix</a></b></li><li>1 year ago</li><li>17,076,888 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Best of Compilation: The Best Collection of <b>Harlem Shake</b> - 2013 - Original Baauer <b>Harlem Shake</b> Videos. Baauer - &quot;The Original ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="YGO2IwAgrig"><div class="yt-lockup-thumbnail"><a href="/watch?v=YGO2IwAgrig" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBcQ3DAYDSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/YGO2IwAgrig/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:18</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="YGO2IwAgrig"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=YGO2IwAgrig" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBcQ3DAYDSITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Best Harlem Shake Compilation - Part 2 || CFTV</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/CompilationFailTV" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCbVCEi1weHWeE9eorZmJyrQ" data-sessionlink="itct=CBcQ3DAYDSITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">CompilationFailTV</a></b></li><li>1 year ago</li><li>1,184,103 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><a href="http://www.facebook.com/compilationfailtv" target="_blank" title="http://www.facebook.com/compilationfailtv" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.facebook.com/compilationfailtv</a> Credits : <b>Harlem Shake</b> (Climber&#39;s Edition) ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="cvwqTzzE4wA"><div class="yt-lockup-thumbnail"><a href="/watch?v=cvwqTzzE4wA" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBQQ3DAYDiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/cvwqTzzE4wA/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:22</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="cvwqTzzE4wA"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=cvwqTzzE4wA" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBQQ3DAYDiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Best Harlem Shake Compilation - Part 1 || CFTV</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/CompilationFailTV" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCbVCEi1weHWeE9eorZmJyrQ" data-sessionlink="itct=CBQQ3DAYDiITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">CompilationFailTV</a></b></li><li>1 year ago</li><li>1,707,679 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><a href="http://www.facebook.com/compilationfailtv" target="_blank" title="http://www.facebook.com/compilationfailtv" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.facebook.com/compilationfailtv</a> Credits: <b>Harlem Shake</b> (original army edition) ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="Ir2TdfSwH8g"><div class="yt-lockup-thumbnail"><a href="/watch?v=Ir2TdfSwH8g" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBEQ3DAYDyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Ir2TdfSwH8g/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">0:56</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Ir2TdfSwH8g"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=Ir2TdfSwH8g" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CBEQ3DAYDyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Harlem Shake Miami HEAT Edition</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/miamiheat" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC8bZbiKoPNRi3taABIaFeBw" data-sessionlink="itct=CBEQ3DAYDyITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">Miami HEAT</a></b></li><li>1 year ago</li><li>47,982,766 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">You can also find us at Twitter.com/MiamiHEAT, Facebook.com/MiamiHEAT and Instagram.com/MiamiHEAT.</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="w5tG0QKhQEM"><div class="yt-lockup-thumbnail"><a href="/watch?v=w5tG0QKhQEM" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CA4Q3DAYECITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/w5tG0QKhQEM/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:53</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="w5tG0QKhQEM"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=w5tG0QKhQEM" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CA4Q3DAYECITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Sexy Harlem Shake Videos! Age 18+</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/EpicVideosHome" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCZ-26CDeD-VXFLFADVKppMQ" data-sessionlink="itct=CA4Q3DAYECITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">EpicVideosHome</a></b></li><li>1 year ago</li><li>18,074,501 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">It would be awesome if you could like and share this video! Thanks for watching :D! Subscribe for more epic content :)!</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="kO04rvgsoyQ"><div class="yt-lockup-thumbnail"><a href="/watch?v=kO04rvgsoyQ" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAsQ3DAYESITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/kO04rvgsoyQ/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">6:00</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="kO04rvgsoyQ"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=kO04rvgsoyQ" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAsQ3DAYESITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">Top 10 Harlem Shake Videos!</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/EpicVideosHome" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UCZ-26CDeD-VXFLFADVKppMQ" data-sessionlink="itct=CAsQ3DAYESITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">EpicVideosHome</a></b></li><li>1 year ago</li><li>9,682,287 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">It would be awesome if you could like and share this video! Thanks for watching :D! Facebook: <a href="http://www.facebook.com/FailHome" target="_blank" title="http://www.facebook.com/FailHome" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://www.facebook.com/FailHome</a> ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="384IUU43bfQ"><div class="yt-lockup-thumbnail"><a href="/watch?v=384IUU43bfQ" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAgQ3DAYEiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/384IUU43bfQ/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">0:31</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="384IUU43bfQ"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=384IUU43bfQ" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAgQ3DAYEiITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">The Harlem Shake v1 (TSCS original)</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/TheSunnyCoastSkate" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC6PpTt_QLPx4cb16XgoKGMQ" data-sessionlink="itct=CAgQ3DAYEiITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">TheSunnyCoastSkate</a></b></li><li>1 year ago</li><li>26,628,435 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Thanks YouTube for acknowledging TSCS&#39;s meme of the <b>Harlem Shake</b> kickstarted an internet explosion ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video clearfix yt-uix-tile" data-context-item-id="Oo0GGfpPzOA"><div class="yt-lockup-thumbnail"><a href="/watch?v=Oo0GGfpPzOA" class="contains-addto yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAUQ3DAYEyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl"><div class="video-thumb"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" data-thumb="//i.ytimg.com/vi/Oo0GGfpPzOA/mqdefault.jpg" width="185" height="104"/></div><span class="video-time">7:58</span>
+
+  <button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" type="button" onclick=";return false;" role="button" title="Watch Later" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Oo0GGfpPzOA"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later" class="yt-uix-button-icon yt-uix-button-icon-addto yt-sprite"></span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+</a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a href="/watch?v=Oo0GGfpPzOA" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink     spf-link " data-sessionlink="itct=CAUQ3DAYEyITCIa2-s6KnMACFdJ4fgod42UAFyj0JFIMaGFybGVtIHNoYWtl" dir="ltr">TEENS REACT TO HARLEM SHAKE</a></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>by <b><a href="/user/TheFineBros" class=" yt-uix-sessionlink     spf-link  g-hovercard" data-ytid="UC0v-tlzsn0QZwJnkiaUSJVQ" data-sessionlink="itct=CAUQ3DAYEyITCIa2-s6KnMACFdJ4fgod42UAFyj0JA">TheFineBros</a></b></li><li>1 year ago</li><li>11,519,199 views</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>Harlem Shake</b> Bonus: <a href="http://bit.ly/15erstE" target="_blank" title="http://bit.ly/15erstE" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://bit.ly/15erstE</a> NEW Vids Sun, Thur &amp; Sat! Subscribe: <a href="http://bit.ly/TheFineBros" target="_blank" title="http://bit.ly/TheFineBros" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://bit.ly/TheFineBros</a> Watch All React ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list "><li class="yt-badge-item"><span class="yt-badge " >HD</span></li></ul> </div></div></div></li>
+</ol>
+</li>
+</ol>
+
+
+  </div>
+
+
+  
+
+    <div class="yt-uix-pager search-pager branded-page-box spf-link " role="navigation">
+
+          
+<a href="/results?search_query=harlem+shake&amp;page=1" class="yt-uix-button  yt-uix-pager-button yt-uix-button-toggled yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="1" aria-label="Go to page 1"><span class="yt-uix-button-content">1 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=2" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="2" aria-label="Go to page 2"><span class="yt-uix-button-content">2 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=3" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="3" aria-label="Go to page 3"><span class="yt-uix-button-content">3 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=4" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="4" aria-label="Go to page 4"><span class="yt-uix-button-content">4 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=5" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="5" aria-label="Go to page 5"><span class="yt-uix-button-content">5 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=6" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="6" aria-label="Go to page 6"><span class="yt-uix-button-content">6 </span></a>
+          
+<a href="/results?search_query=harlem+shake&amp;page=7" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="num" data-page="7" aria-label="Go to page 7"><span class="yt-uix-button-content">7 </span></a>
+
+        
+<a href="/results?search_query=harlem+shake&amp;page=2" class="yt-uix-button  yt-uix-pager-button yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=Xo_xU4aPCtLx-QPjy4G4AQ" data-link-type="next" data-page="2"><span class="yt-uix-button-content">Next » </span></a>
+    </div>
+
+
+
+  </div>
+
+          </div>
+        </div>
+          <div class="branded-page-v2-secondary-col">
+                <div id="search-secondary-col-contents">
+      
+        
+              
+
+
+  <div id="ad_creative_1" class="ad-div " style="z-index: 1">
+    <div id="ad_creative_div_1"></div>
+    <script>(function() {function tagMpuIframe() {var containerEl = document.getElementById('ad_creative_div_1');if (!containerEl) {return;}var iframeEl = document.createElement('iframe');var iframeSrc = 'https://ad.doubleclick.net/N4061/adi/com.ytsrc.enter/dancing;sz=300x250;tile=1;ssl=1;dc_yt=1;kga=-1;kgg=-1;klg=en;kmyd=ad_creative_1;ytexp=900225,937429,938628,946013,950611;ord=' +Math.floor(Math.random() * 10000000000000000) +'?';iframeEl.id = 'ad_creative_iframe_1';iframeEl.width = '300';iframeEl.height = '250';iframeEl.style.cssText = 'z-index:1;';iframeEl.scrolling = 'no';iframeEl.frameBorder = '0';containerEl.appendChild(iframeEl);iframeEl.src = iframeSrc;}tagMpuIframe();})();</script>
+      <div style="font-size: 10px; padding-top: 3px;" class="alignC grayText">
+          <a href="/t/ads_preferences">
+Advertisement
+          </a>
+      </div>
+<script>(function() {if (1193 > document.documentElement.clientWidth) {var adIframe = document.getElementById('ad_creative_iframe_1');adIframe.parentNode.removeChild(adIframe);}})();</script>  </div>
+
+
+    </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="YouTube home"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="footer-logo-icon yt-sprite"></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-picker-position="footer" data-button-menu-id="arrow-display" data-picker-key="language" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Language:
+  </span>
+  English
+ </span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-picker-position="footer" data-button-menu-id="arrow-display" data-picker-key="country" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Country:
+  </span>
+  Worldwide
+ </span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-picker-position="footer" data-button-menu-id="arrow-display" data-picker-key="safetymode" data-button-action="yt.www.picker.load" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Safety:
+  </span>
+Off
+ </span><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-arrow yt-sprite"></button>
+
+
+      </li>
+  </ul>
+      <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" data-ghelp-anchor="google-help" data-ghelp-tracking-param="" id="google-help"><span class="yt-uix-button-icon-wrapper"><img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span><span class="yt-uix-button-content">Help
+ </span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner">
+      <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" class="yt-spinner-img yt-sprite">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner">
+      <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" class="yt-spinner-img yt-sprite">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner">
+      <img src="https://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" class="yt-spinner-img yt-sprite">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/">About</a></li>
+  <li><a href="//www.youtube.com/yt/press/">Press &amp; Blogs</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">Creators &amp; Partners</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">Advertising</a></li>
+  <li><a href="//www.youtube.com/yt/dev/">Developers</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Terms</a></li>
+  <li><a href="https://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/">
+Policy &amp; Safety
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=en" onclick="return yt.www.feedback.start(59);" class="reportbug">Send feedback</a></li>
+  <li><a href="/testtube">Try something new!</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="hid">    <div id="shared-addto-watch-later-login" class="hid">
+      <a href="https://accounts.google.com/ServiceLogin?passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dplaylist%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253Dharlem%252Bshake&uilel=3&hl=en&service=youtube" class="sign-in-link">Sign in</a> to add this to Watch Later
+
+    </div>
+  <div id="yt-uix-videoactionmenu-menu" class="yt-ui-menu-content">
+    <div class="hide-on-create-pl-panel">
+      <h3>
+Add to
+      </h3>
+    </div>
+    <div class="add-to-widget">
+    </div>
+  </div>
+</div>  <script>var ytspf = ytspf || {};ytspf.enabled = false;</script>  <script src="//s.ytimg.com/yts/jsbin/spf-vflv_6l8d/spf.js" type="text/javascript" name="spf"></script>
+  <script src="//s.ytimg.com/yts/jsbin/www-en_US-vflRJjdlc/base.js" name="www/base"></script>
+<script>spf.script.path({'www/': '//s.ytimg.com/yts/jsbin/www-en_US-vflRJjdlc/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/watch": "www/common", "www/videomanager": "www/common", "www/subscriptionmanager": "www/common", "www/results_starwars": "www/common", "www/results_star_trek": "www/common", "www/results": "www/common", "www/results_harlemshake": "www/common", "www/results_fibonacci": "www/common", "www/promo_join_network": "www/common", "www/legomap": "www/common", "www/feed": "www/common", "www/experiments": "www/common", "www/downloadreports": "www/common", "www/dashboard": "www/common", "www/channels": "www/common", "www/channels_accountupload": "www/common", "www/watch_webdrivertorso": "www/watch", "www/watch_videoshelf": "www/watch", "www/watch_transcript": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_promos": "www/watch", "www/watch_missilecommand": "www/watch", "www/watch_live": "www/watch", "www/watch_editor": "www/watch", "www/watch_edit": "www/watch", "www/watch_commentsrealtime": "www/watch", "www/watch_commentsmoderation": "www/watch", "www/watch_autoplayrenderer": "www/watch", "www/my_videos": "www/videomanager", "www/ct_advancedsearch": "www/videomanager", "www/channels_edit": "www/channels"};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>        <script src="//s.ytimg.com/yts/jsbin/www-search-ads-vflUt6DmW/www-search-ads.js" type="text/javascript" name="www-search-ads"></script>
+
+
+
+  <script>
+        yt.setConfig({
+      'JS_PAGE_MODULES': [
+        'www/results',
+        ''
+      ],
+      'TIMING_REPORT_ON_UNLOAD': true,
+      'SPF_PREFETCH': false,
+      'SPF_PREFETCH_MAX': 0
+    });
+
+
+      yt.www.ads.pyvsearch.pageJsInit = true;
+      if (yt.www.ads.pyvsearch.searchTopAdsFromAfc) {
+        yt.www.ads.pyvsearch.pyvSearchTopAfcCallback(yt.www.ads.pyvsearch.searchTopAdsFromAfc);
+      }
+      yt.setConfig('TIMING_WAIT', ['ol', 'afc']);
+
+
+
+
+
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+<script>yt.setConfig({'EVENT_ID': "Xo_xU4aPCtLx-QPjy4G4AQ",'PAGE_NAME': "results",'LOGGED_IN': false,'SESSION_INDEX': null,'FORMATS_FILE_SIZE_JS': ["%s B", "%s KB", "%s MB", "%s GB", "%s TB"],'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.2sP0CjtIlu8.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPAl9CJYAU1Iw9xoBtn71D0VhQI4Q",'GAPI_LOCALE': "en_US",'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'VISITOR_DATA': "CgtWU2ZZUHlLdEttSQ%3D%3D",'APIARY_HOST': "",'APIARY_HOST_FIRSTPARTY': "",'INNERTUBE_CONTEXT_HL': "en",'INNERTUBE_CONTEXT_GL': "US",'INNERTUBE_CONTEXT_CLIENT_VERSION': "20140813",'INNERTUBE_API_KEY': "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",'INNERTUBE_API_VERSION': "v1",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflIoRhWR\/www-pageframe.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-en_US-vflRJjdlc\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflfS7SCx.css",'GUIDED_HELP_FIND_VIDEO_MANAGER_ENABLED': false,'GUIDED_HELP_CREATOR_STUDIO_ENABLED': true,'GUIDED_HELP_SELECT_CONTENT_OWNER_ENABLED': false,'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflLwZXJW.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-en_US-vfl4b4S6W\/html5player.js",''         ],'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"formatShortDate": "MMM d, yyyy", "formatLongDateOnly": "MMMM d, yyyy", "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "formatLongDate": "MMMM d, yyyy h:mm a", "formatWeekdayShortTime": "EE h:mm a", "shortWeekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "amPms": ["AM", "PM"]},'PAGE_CL': 73325234,'PAGE_BUILD_TIMESTAMP': "Thu Aug 14 12:41:43 2014 (1408045303)",'PLAYER_PERSISTENCE_REFACTOR': true,'FEEDBACK_BUCKET_ID': "Search",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"is_partner": "", "is_branded": "", "experiments": "900225,901608,902022,902408,906001,911507,912714,912719,912725,913308,916928,916929,918119,918121,919389,920609,921603,921910,921911,922413,922804,922927,923024,925011,927006,927622,927626,927881,927891,929237,929507,929509,929940,929943,930812,930819,931017,931020,931025,931339,931341,931943,931950,931983,933218,934024,934030,934032,934113,935021,935670,935707,937217,937422,937424,937429,937817,938006,938302,938628,938632,938639,938681,938683,938685,938703,938705,939201,939954,940641,940918,941414,943301,943407,943410,944702,945117,945401,945827,946013,947204,947503,949001,949302,950611,951601", "logged_in": false, "guide_subs": "NA", "accept_language": null}});  yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "Added",'ADDTO_WATCH_QUEUE_ERROR': "Error",'ADDTO_TV_QUEUE': "TV Queue"});    yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbThDWGI0MXJWWTA5aHZaUnNnb0lxVG5NbTJaQXxBQ3Jtc0tsVmhrVWp4UE1IZV9Ud183UDVNNkt4RU9VTjhLOWhyQnFyeFY3Q1B4N0wtYzJFajhJc3UzSFBzQmRVOHJmSUM5YVZGS3dOc2hNa0dxU2d4TnFXMzBETTJTU1J4RkZ2SEllZkNoQnV6d1NGa293UzlIMk4tZ016OUZtSUpTbzlRQU9NbXJNMTJTRmRzZnY0SG5UZDBueHBzdDAyNFE=",
+    'XSRF_REDIRECT_TOKEN': "OU6IzbCQvO_Gyrq0dOeOxSPe4i58MTQwODQyNjIwNkAxNDA4MzM5ODA2",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vfl2TdCGD.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl6NwOfV\/www-searchbox.js",'SBOX_SETTINGS': {"REQUEST_LANGUAGE": "en", "PSUGGEST_TOKEN": null, "HAS_ON_SCREEN_KEYBOARD": false, "REQUEST_DOMAIN": "us", "EXPERIMENT_ID": -1, "SESSION_INDEX": null, "PQ": "harlem shake"},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL": "Dismiss", "SUGGESTION_DISMISSED_LABEL": "Suggestion dismissed"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vfli8Grrl\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfljUuYtp.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init']
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "search_results");
+ytcsi.span('st', 232);yt.setConfig({'TIMING_ACTION': "results",'TIMING_INFO': {"e": "900225,902408,927622,931983,934024,934030,937429,938628,946013,950611", "yt_li": 0, "ei": "Xo_xU4aPCtLx-QPjy4G4AQ", "yt_spf": 0, "yt_lt": "cold"}});  yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqbThDWGI0MXJWWTA5aHZaUnNnb0lxVG5NbTJaQXxBQ3Jtc0tsVmhrVWp4UE1IZV9Ud183UDVNNkt4RU9VTjhLOWhyQnFyeFY3Q1B4N0wtYzJFajhJc3UzSFBzQmRVOHJmSUM5YVZGS3dOc2hNa0dxU2d4TnFXMzBETTJTU1J4RkZ2SEllZkNoQnV6d1NGa293UzlIMk4tZ016OUZtSUpTbzlRQU9NbXJNMTJTRmRzZnY0SG5UZDBueHBzdDAyNFE=",
+    'XSRF_REDIRECT_TOKEN': "OU6IzbCQvO_Gyrq0dOeOxSPe4i58MTQwODQyNjIwNkAxNDA4MzM5ODA2",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>
+
+

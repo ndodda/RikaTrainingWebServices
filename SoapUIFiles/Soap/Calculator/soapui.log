@@ -1,0 +1,40 @@
+2014-08-17 21:44:07,937 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 21:44:09,213 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 21:44:12,199 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 21:44:12,213 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 21:44:18,041 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/Calculator/SOAPCalculator-soapui-project.xml]
+2014-08-17 21:44:19,093 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [SOAPCalculator]
+2014-08-17 21:44:19,101 INFO  [SoapUIProTestCaseRunner] Running Project [SOAPCalculator], runType = SEQUENTIAL
+2014-08-17 21:44:19,227 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCaseAllOperations]
+2014-08-17 21:44:19,260 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 21:44:19,296 INFO  [SoapUIProTestCaseRunner] running step [add - Request 1]
+2014-08-17 21:44:20,273 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:20,283 INFO  [SoapUIProTestCaseRunner] running step [subtract - Request 1]
+2014-08-17 21:44:21,343 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:21,353 INFO  [SoapUIProTestCaseRunner] running step [multiply - Request 1]
+2014-08-17 21:44:21,464 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:21,475 INFO  [SoapUIProTestCaseRunner] running step [divide - Request 1]
+2014-08-17 21:44:21,570 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:21,582 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 21:44:21,628 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:21,628 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:21,628 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:21,628 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:21,636 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 21:44:21,643 INFO  [SoapUIProTestCaseRunner] running step [add - Request 1]
+2014-08-17 21:44:21,743 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:21,755 INFO  [SoapUIProTestCaseRunner] running step [subtract - Request 1]
+2014-08-17 21:44:22,821 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:22,841 INFO  [SoapUIProTestCaseRunner] running step [multiply - Request 1]
+2014-08-17 21:44:22,908 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:22,921 INFO  [SoapUIProTestCaseRunner] running step [divide - Request 1]
+2014-08-17 21:44:23,014 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 21:44:23,026 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 21:44:23,033 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:23,034 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:23,090 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:23,090 INFO  [SoapUIProTestCaseRunner] Assertion [ContainsAddition] has status VALID
+2014-08-17 21:44:23,098 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 21:44:23,152 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCaseAllOperations], time taken: 3557ms, status: FINISHED
+2014-08-17 21:44:23,154 INFO  [SoapUIProTestCaseRunner] Project [SOAPCalculator] finished with status [FINISHED] in 4040ms
+2014-08-17 21:44:25,371 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/Calculator/Results/index.html

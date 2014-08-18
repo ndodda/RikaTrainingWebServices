@@ -1,0 +1,22 @@
+2014-08-17 22:29:54,466 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 22:29:55,171 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 22:29:57,273 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 22:29:57,276 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 22:30:00,551 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/YoutubeSearch/RESTYoutubeSearch-soapui-project.xml]
+2014-08-17 22:30:01,257 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [RESTYoutubeSearch]
+2014-08-17 22:30:01,262 INFO  [SoapUIProTestCaseRunner] Running Project [RESTYoutubeSearch], runType = SEQUENTIAL
+2014-08-17 22:30:01,299 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-17 22:30:01,352 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 22:30:01,367 INFO  [SoapUIProTestCaseRunner] running step [Results - Request 1]
+2014-08-17 22:30:04,799 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:30:06,485 INFO  [SoapUIProTestCaseRunner] Assertion [XPathHeader] has status VALID
+2014-08-17 22:30:06,486 INFO  [SoapUIProTestCaseRunner] Assertion [XPathHeader] has status VALID
+2014-08-17 22:30:06,505 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 22:30:06,528 INFO  [SoapUIProTestCaseRunner] running step [Results - Request 1]
+2014-08-17 22:30:07,776 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:30:08,112 INFO  [SoapUIProTestCaseRunner] Assertion [XPathHeader] has status VALID
+2014-08-17 22:30:08,112 INFO  [SoapUIProTestCaseRunner] Assertion [XPathHeader] has status VALID
+2014-08-17 22:30:08,118 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 22:30:08,129 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 2211ms, status: FINISHED
+2014-08-17 22:30:08,138 INFO  [SoapUIProTestCaseRunner] Project [RESTYoutubeSearch] finished with status [FINISHED] in 6865ms
+2014-08-17 22:30:09,836 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/YoutubeSearch/Results/index.html

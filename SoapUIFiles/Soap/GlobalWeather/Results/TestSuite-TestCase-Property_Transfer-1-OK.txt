@@ -1,0 +1,25 @@
+Status: OK
+Time Taken: 1
+Size: 0
+Timestamp: Sun Aug 17 02:41:50 PDT 2014
+TestStep: Property Transfer
+
+----------------- Messages ------------------------------
+Performed transfer [DataTransfer]
+----------------------------------------------------
+DataTransfer transferred [[<?xml version="1.0" encoding="utf-16"?>
+<CurrentWeather>
+  <Location>New Delhi / Palam, India (VIDP) 28-34N 077-07E 233M</Location>
+  <Time>Aug 17, 2014 - 05:00 AM EDT / 2014.08.17 0900 UTC</Time>
+  <Wind> from the W (280 degrees) at 8 MPH (7 KT):0</Wind>
+  <Visibility> 1 mile(s):0</Visibility>
+  <SkyConditions> partly cloudy</SkyConditions>
+  <Temperature> 95 F (35 C)</Temperature>
+  <DewPoint> 69 F (21 C)</DewPoint>
+  <RelativeHumidity> 44%</RelativeHumidity>
+  <Pressure> 29.68 in. Hg (1005 hPa)</Pressure>
+  <Status>Success</Status>
+</CurrentWeather>]] from [RequestWeather.Response] to [#TestCase#.Data]
+------------ source path -------------
+declare namespace ns1='http://www.webserviceX.NET';
+//ns1:GetWeatherResponse[1]/ns1:GetWeatherResult[1]/text()

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Description: SoapUI tests execution build xml file
+-->
+<project name="soapuiproject1" default="usage" basedir=".">
+<property name="project.dir" value="."/>
+<property name="soapui.files.dir" value="C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\TVGuideSearch"/>
+<property name="results.dir" value="C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\TVGuideSearch\\Results"/>
+<property name="soapui.xml" value="RESTTVGuideSearch-soapui-project.xml"/>
+<property name="soapui.tool" value="C:\\Program Files\\SmartBear\\SoapUI-Pro-5.1.1\\bin\\testrunner.bat"/>
+
+<target name="usage" description="usage">
+	<echo>
+		Run ant -p to get the supported targets
+	</echo>
+</target>
+
+<!-- Clean -->
+
+<target name="clean" description="Clean the results directory">
+	<delete file="${results.dir}" failonerror="false"/>
+</target>
+
+<!-- Run soapui tool -->
+
+<target name="run" description="Run soap ui test">
+	<exec executable="${soapui.tool}">
+		<arg line="-f ${results.dir} -r -o -j -a ${soapui.xml}"/>
+	</exec>
+</target>
+</project>

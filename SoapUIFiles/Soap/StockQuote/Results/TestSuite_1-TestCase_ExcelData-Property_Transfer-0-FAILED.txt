@@ -1,0 +1,18 @@
+Status: FAILED
+Time Taken: 599
+Size: 0
+Timestamp: Sat Aug 16 23:03:26 PDT 2014
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: error: Unexpected element: CDATA
+
+----------------- Messages ------------------------------
+Performed transfer [Result]
+Error performing transfer [Target] - error: Unexpected element: CDATA
+----------------------------------------------------
+Result transferred [[exception]] from [MyRequest.Response] to [#TestCase#.Temp1]
+------------ source path -------------
+declare namespace ns1='http://www.webserviceX.NET/';
+//ns1:GetQuoteResponse[1]/ns1:GetQuoteResult[1]
+Target transferred [[error: Unexpected element: CDATA]] from [#TestCase#.Temp1] to [#TestCase#.Temp2]
+------------ source path -------------
+//Last[1]

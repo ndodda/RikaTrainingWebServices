@@ -1,0 +1,44 @@
+Status: UNKNOWN
+Time Taken: 106
+Size: 3261
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: MyRequest
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://ajax.googleapis.com
+URL: https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=scarf
+
+---------------- Request ---------------------------
+Host: [ajax.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=scarf HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: ajax.googleapis.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+X-Frame-Options: [SAMEORIGIN]
+X-Embedded-Status: [200]
+Transfer-Encoding: [chunked]
+Date: [Mon, 18 Aug 2014 05:33:45 GMT]
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [1; mode=block]
+Expires: [Fri, 01 Jan 1990 00:00:00 GMT]
+Alternate-Protocol: [443:quic]
+Content-Type: [text/javascript; charset=utf-8]
+Server: [GSE]
+X-Content-Type-Options: [nosniff]
+Pragma: [no-cache]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+
+{"responseData": {"results":[{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://shop.nordstrom.com/c/scarves-wraps","url":"http://shop.nordstrom.com/c/scarves-wraps","visibleUrl":"shop.nordstrom.com","cacheUrl":"http://www.google.com/search?q\u003dcache:J-C3fb9voDIJ:shop.nordstrom.com","title":"All \u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps | Nordstrom","titleNoFormatting":"All Scarves \u0026amp; Wraps | Nordstrom","content":"Find a great selection of \u003cb\u003escarves\u003c/b\u003e \u0026amp; wraps at Nordstrom.com. Browse all \u003cb\u003escarves\u003c/b\u003e, \nwraps \u0026amp; shawls in the latest collection. Free shipping \u0026amp; returns."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.anthropologie.com/anthro/category/hats++scarves/accessories-wraps.jsp","url":"http://www.anthropologie.com/anthro/category/hats%2B%2Bscarves/accessories-wraps.jsp","visibleUrl":"www.anthropologie.com","cacheUrl":"","title":"Women\u0026#39;s \u003cb\u003eScarves\u003c/b\u003e \u0026amp; Wraps - Shop \u003cb\u003eScarves\u003c/b\u003e for Women | Anthropologie","titleNoFormatting":"Women\u0026#39;s Scarves \u0026amp; Wraps - Shop Scarves for Women | Anthropologie","content":"Shop all Hats \u0026amp; \u003cb\u003eScarves\u003c/b\u003e at Anthropologie.com. Anthropologie offers a wide \nvariety of Hats \u0026amp; \u003cb\u003eScarves\u003c/b\u003e in the Accessories section of the site. View all of the \nInfinity ..."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://en.wikipedia.org/wiki/Scarf","url":"http://en.wikipedia.org/wiki/Scarf","visibleUrl":"en.wikipedia.org","cacheUrl":"http://www.google.com/search?q\u003dcache:n257c7rGMSsJ:en.wikipedia.org","title":"\u003cb\u003eScarf\u003c/b\u003e - Wikipedia, the free encyclopedia","titleNoFormatting":"Scarf - Wikipedia, the free encyclopedia","content":"A \u003cb\u003escarf\u003c/b\u003e, also known as a Kremer, muffler or neck-wrap, is a piece of fabric worn \naround the neck, or near the head or around the waist for warmth, cleanliness, ..."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.forever21.com/product/Category.aspx?br\u003df21\u0026category\u003dwhatsnew_acc_scarves","url":"http://www.forever21.com/product/Category.aspx%3Fbr%3Df21%26category%3Dwhatsnew_acc_scarves","visibleUrl":"www.forever21.com","cacheUrl":"http://www.google.com/search?q\u003dcache:GwVVz2cskAsJ:www.forever21.com","title":"\u003cb\u003eScarves\u003c/b\u003e - Forever 21","titleNoFormatting":"Scarves - Forever 21","content":"Help; Contact Us · Track Orders · FAQ\u0026#39;s · Shipping Info. Quick Links; Gift Cards · \nSize Guide · My account · Store locator. Trending; Denim · Plaid · Back to School\n ..."}],"cursor":{"resultCount":"8,450,000","pages":[{"start":"0","label":1},{"start":"4","label":2},{"start":"8","label":3},{"start":"12","label":4},{"start":"16","label":5},{"start":"20","label":6},{"start":"24","label":7},{"start":"28","label":8}],"estimatedResultCount":"8450000","currentPageIndex":0,"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026hl\u003den\u0026q\u003dscarf","searchResultTime":"0.24"}}, "responseDetails": null, "responseStatus": 200}

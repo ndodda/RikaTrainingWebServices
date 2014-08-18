@@ -1,0 +1,233 @@
+2014-08-17 22:33:25,373 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 22:33:26,090 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 22:33:28,187 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 22:33:28,190 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 22:33:31,595 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/GoogleSearch/RESTGoogleSearch-soapui-project.xml]
+2014-08-17 22:33:32,394 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [RESTGoogleSearch]
+2014-08-17 22:33:32,399 INFO  [SoapUIProTestCaseRunner] Running Project [RESTGoogleSearch], runType = SEQUENTIAL
+2014-08-17 22:33:32,469 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase ExcelData]
+2014-08-17 22:33:32,486 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 22:33:36,973 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-17 22:33:38,904 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:33:39,570 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status FAILED
+2014-08-17 22:33:39,570 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]
+2014-08-17 22:33:39,571 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\GoogleSearch\\Results\TestSuite_1-TestCase_ExcelData-Assertion_TestStep-0-FAILED.txt]
+2014-08-17 22:33:39,679 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 22:33:39,704 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase ExcelData], time taken: 6022ms, status: FAILED
+2014-08-17 22:33:39,706 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase DatabaseData]
+2014-08-17 22:33:40,480 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 22:33:40,945 INFO  [DBDataSource] Got 2 columns from resultset
+2014-08-17 22:33:40,981 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-17 22:33:41,131 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:33:41,156 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status FAILED
+2014-08-17 22:33:41,156 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]
+2014-08-17 22:33:41,178 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\GoogleSearch\\Results\TestSuite_1-TestCase_DatabaseData-Assertion_TestStep-0-FAILED.txt]
+2014-08-17 22:33:41,184 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 22:33:41,269 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-17 22:33:41,423 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:33:41,441 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status FAILED
+2014-08-17 22:33:41,441 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]
+2014-08-17 22:33:41,442 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\GoogleSearch\\Results\TestSuite_1-TestCase_DatabaseData-Assertion_TestStep-1-FAILED.txt]
+2014-08-17 22:33:41,491 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 22:33:41,501 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase DatabaseData], time taken: 483ms, status: FAILED
+2014-08-17 22:33:41,502 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase CsvFileData]
+2014-08-17 22:33:41,502 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 22:33:41,965 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-17 22:33:42,139 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 22:33:42,162 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status FAILED
+2014-08-17 22:33:42,162 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]
+2014-08-17 22:33:42,162 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Rest\\GoogleSearch\\Results\TestSuite_1-TestCase_CsvFileData-Assertion_TestStep-0-FAILED.txt]
+2014-08-17 22:33:42,211 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase CsvFileData], time taken: 561ms, status: FAILED
+2014-08-17 22:33:42,215 INFO  [SoapUIProTestCaseRunner] Project [RESTGoogleSearch] finished with status [FAILED] in 9803ms
+2014-08-17 22:33:44,075 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/GoogleSearch/Results/index.html
+2014-08-17 22:33:44,087 ERROR [SoapUIProTestCaseRunner] java.lang.Exception: XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:38 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:42 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+
+2014-08-17 22:33:44,118 ERROR [SoapUI] An error occurred [XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:38 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:42 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+], see error log for details
+2014-08-17 22:33:44,142 ERROR [errorlog] java.lang.Exception: XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:38 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:42 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+
+java.lang.Exception: XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:38 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [313000000], actual was [312000000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+XPath Match in [MyRequest] failed;
+[XPathContains comparison failed for path [declare namespace ns1='https://ajax.googleapis.com/ajax/services/search/web';
+//ns1:Response[1]/ns1:responseData[1]/ns1:cursor[1]/ns1:estimatedResultCount[1]], expecting [8770000], actual was [8450000]]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:42 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)

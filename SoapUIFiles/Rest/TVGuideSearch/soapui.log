@@ -1,0 +1,20 @@
+2014-08-17 23:45:30,350 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 23:45:31,448 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 23:45:34,022 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 23:45:34,037 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 23:45:38,437 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/TVGuideSearch/RESTTVGuideSearch-soapui-project.xml]
+2014-08-17 23:45:39,472 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [RESTTVGuideSearch]
+2014-08-17 23:45:39,478 INFO  [SoapUIProTestCaseRunner] Running Project [RESTTVGuideSearch], runType = SEQUENTIAL
+2014-08-17 23:45:39,605 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-17 23:45:39,629 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 23:45:39,681 INFO  [SoapUIProTestCaseRunner] running step [Search - Request 1]
+2014-08-17 23:45:41,642 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 23:45:42,790 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 23:45:42,797 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 23:45:42,810 INFO  [SoapUIProTestCaseRunner] running step [Search - Request 1]
+2014-08-17 23:45:43,361 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 23:45:43,476 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 23:45:43,486 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 23:45:43,503 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 755ms, status: FINISHED
+2014-08-17 23:45:43,504 INFO  [SoapUIProTestCaseRunner] Project [RESTTVGuideSearch] finished with status [FINISHED] in 4014ms
+2014-08-17 23:45:45,607 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Rest/TVGuideSearch/Results/index.html

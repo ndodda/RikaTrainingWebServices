@@ -1,0 +1,69 @@
+Status: OK
+Time Taken: 4879
+Size: 1777
+Timestamp: Sun Aug 17 08:32:06 PDT 2014
+TestStep: ChangeVolumeUnit - Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://www.webservicex.net/convertVolume.asmx
+
+---------------- Request ---------------------------
+Request Headers: Host : www.webservicex.net
+Content-Length : 379
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : application/soap+xml;charset=UTF-8;action="http://www.webserviceX.NET/ChangeVolumeUnit"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">
+   <soap:Header/>
+   <soap:Body>
+      <web:ChangeVolumeUnit>
+         <web:VolumeValue>?</web:VolumeValue>
+         <web:fromVolumeUnit>?</web:fromVolumeUnit>
+         <web:toVolumeUnit>?</web:toVolumeUnit>
+      </web:ChangeVolumeUnit>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-AspNet-Version : 4.0.30319
+Date : Sun, 17 Aug 2014 15:32:31 GMT
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 1777
+Content-Type : application/soap+xml; charset=utf-8
+X-Powered-By : ASP.NET
+Server : Microsoft-IIS/7.0
+Cache-Control : private
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <soap:Fault>
+         <soap:Code>
+            <soap:Value>soap:Sender</soap:Value>
+         </soap:Code>
+         <soap:Reason>
+            <soap:Text xml:lang="en">System.Web.Services.Protocols.SoapException: Server was unable to read request. ---> System.InvalidOperationException: There is an error in XML document (5, 46). ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Double.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.Xml.XmlConvert.ToDouble(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReader1.Read2_ChangeVolumeUnit()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.ArrayOfObjectSerializer.Deserialize(XmlSerializationReader reader)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle)
+   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   --- End of inner exception stack trace ---
+   at System.Web.Services.Protocols.SoapServerProtocol.ReadParameters()
+   at System.Web.Services.Protocols.WebServiceHandler.CoreProcessRequest()</soap:Text>
+         </soap:Reason>
+         <soap:Detail/>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>

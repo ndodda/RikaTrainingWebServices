@@ -1,0 +1,25 @@
+Status: OK
+Time Taken: 2454
+Size: 0
+Timestamp: Sun Aug 17 02:41:48 PDT 2014
+TestStep: Property Transfer
+
+----------------- Messages ------------------------------
+Performed transfer [DataTransfer]
+----------------------------------------------------
+DataTransfer transferred [[<?xml version="1.0" encoding="utf-16"?>
+<CurrentWeather>
+  <Location>San Diego/El Cajon, Gillespie Field Airport, CA, United States (KSEE) 32-49-34N 116-58-20W</Location>
+  <Time>Aug 17, 2014 - 05:15 AM EDT / 2014.08.17 0915 UTC</Time>
+  <Wind> Calm:0</Wind>
+  <Visibility> 10 mile(s):0</Visibility>
+  <SkyConditions> clear</SkyConditions>
+  <Temperature> 69 F (21 C)</Temperature>
+  <DewPoint> 57 F (14 C)</DewPoint>
+  <RelativeHumidity> 64%</RelativeHumidity>
+  <Pressure> 29.97 in. Hg (1014 hPa)</Pressure>
+  <Status>Success</Status>
+</CurrentWeather>]] from [RequestWeather.Response] to [#TestCase#.Data]
+------------ source path -------------
+declare namespace ns1='http://www.webserviceX.NET';
+//ns1:GetWeatherResponse[1]/ns1:GetWeatherResult[1]/text()

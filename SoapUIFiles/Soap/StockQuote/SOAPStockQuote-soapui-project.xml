@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="c406322a-ddd1-468a-b8da-75ad6b32ef02" activeEnvironment="Default" name="SOAPStockQuote" resourceRoot="" soapui-version="5.1.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="TestSuite 1"/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="TestCase DatabaseData"/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value="TestSuite Report"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:WsdlInterface" id="9c8d2241-c13b-4fb0-b8eb-25d5bf58c613" wsaVersion="NONE" name="StockQuoteSoap" type="wsdl" bindingName="{http://www.webserviceX.NET/}StockQuoteSoap" soapVersion="1_1" anonymous="optional" definition="http://www.webservicex.net/stockquote.asmx?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://www.webservicex.net/stockquote.asmx?WSDL"><con:part><con:url>http://www.webservicex.net/stockquote.asmx?WSDL</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://www.webserviceX.NET/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET/">
+      <s:element name="GetQuote">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetQuoteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetQuoteResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetQuoteSoapIn">
+    <wsdl:part name="parameters" element="tns:GetQuote"/>
+  </wsdl:message>
+  <wsdl:message name="GetQuoteSoapOut">
+    <wsdl:part name="parameters" element="tns:GetQuoteResponse"/>
+  </wsdl:message>
+  <wsdl:message name="GetQuoteHttpGetIn">
+    <wsdl:part name="symbol" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetQuoteHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetQuoteHttpPostIn">
+    <wsdl:part name="symbol" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="GetQuoteHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:portType name="StockQuoteSoap">
+    <wsdl:operation name="GetQuote">
+      <wsdl:documentation>Get Stock quote for a company Symbol</wsdl:documentation>
+      <wsdl:input message="tns:GetQuoteSoapIn"/>
+      <wsdl:output message="tns:GetQuoteSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="StockQuoteHttpGet">
+    <wsdl:operation name="GetQuote">
+      <wsdl:documentation>Get Stock quote for a company Symbol</wsdl:documentation>
+      <wsdl:input message="tns:GetQuoteHttpGetIn"/>
+      <wsdl:output message="tns:GetQuoteHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="StockQuoteHttpPost">
+    <wsdl:operation name="GetQuote">
+      <wsdl:documentation>Get Stock quote for a company Symbol</wsdl:documentation>
+      <wsdl:input message="tns:GetQuoteHttpPostIn"/>
+      <wsdl:output message="tns:GetQuoteHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="StockQuoteSoap" type="tns:StockQuoteSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetQuote">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetQuote" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StockQuoteSoap12" type="tns:StockQuoteSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetQuote">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetQuote" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StockQuoteHttpGet" type="tns:StockQuoteHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="GetQuote">
+      <http:operation location="/GetQuote"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="StockQuoteHttpPost" type="tns:StockQuoteHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="GetQuote">
+      <http:operation location="/GetQuote"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StockQuote">
+    <wsdl:port name="StockQuoteSoap" binding="tns:StockQuoteSoap">
+      <soap:address location="http://www.webservicex.net/stockquote.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="StockQuoteSoap12" binding="tns:StockQuoteSoap12">
+      <soap12:address location="http://www.webservicex.net/stockquote.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="StockQuoteHttpGet" binding="tns:StockQuoteHttpGet">
+      <http:address location="http://www.webservicex.net/stockquote.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="StockQuoteHttpPost" binding="tns:StockQuoteHttpPost">
+      <http:address location="http://www.webservicex.net/stockquote.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://www.webservicex.net/stockquote.asmx</con:endpoint></con:endpoints><con:operation id="eff331ce-311a-4a91-827b-5a199913d2ac" isOneWay="false" action="http://www.webserviceX.NET/GetQuote" name="GetQuote" bindingOperationName="GetQuote" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e56ffb82-f8bf-458e-8e79-49e53464488d" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/stockquote.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <!--Optional:-->
+         
+      <web:symbol>ORCL</web:symbol></web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetQuote"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:testSuite id="f5dc972c-1097-4703-b53d-f1f206501e81" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="54ad523f-1d70-4d1a-9e17-4b911d7e6541" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase ExcelData" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="datasource" name="DataSource" id="6ef3f643-dd40-4a6b-8eef-ced4aaa5c016"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Excel"><con:configuration><file>C:/Users/ndodda/Desktop/Training/SoapUI/Soap/StockQuote/DataSources/FileData_StockQuote.xlsx</file><worksheet/><cell>A1</cell><ignoreEmpty>false</ignoreEmpty></con:configuration></con:dataSource><con:property>Symbol</con:property><con:property>Price</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="request" id="6f5addbd-87ea-4278-9334-84791879dba3" name="MyRequest"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>StockQuoteSoap</con:interface><con:operation>GetQuote</con:operation><con:request name="MyRequest" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="435e2882-d788-40a1-a1ee-615ff6a64854"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/stockquote.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <!--Optional:-->
+         
+      <web:symbol>${DataSource#Symbol}</web:symbol>
+      </web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="49ddf7c1-8708-4499-a86f-c8c389a3620c" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetQuote"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="ae369f97-b7bc-47b5-9daf-2c549949403b"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Result</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>MyRequest</con:sourceStep><con:sourcePath>declare namespace ns1='http://www.webserviceX.NET/';
+//ns1:GetQuoteResponse[1]/ns1:GetQuoteResult[1]</con:sourcePath><con:targetType>Temp1</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Target</con:name><con:sourceType>Temp1</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:sourcePath>//Last[1]</con:sourcePath><con:targetType>Temp2</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion TestStep" id="bc59f2f8-41b5-405e-b8fd-2193f28b5252"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>1a2c193b-867c-4c3a-9ed5-e1cb1e202285</con:id><con:isGroup>false</con:isGroup><con:sourceId>54ad523f-1d70-4d1a-9e17-4b911d7e6541</con:sourceId><con:propertyName>Temp2</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="39dc54f9-50af-4ab0-99f3-0e6780fa507b"><con:configuration><token>${DataSource#Price}</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="561952c5-6d8d-44ae-85f9-5c75e198eb52"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>MyRequest</targetStep></con:config></con:testStep><con:properties><con:property><con:name>Temp1</con:name><con:value><![CDATA[<StockQuotes><Stock><Symbol>KO</Symbol><Last>39.57</Last><Date>8/11/2014</Date><Time>4:00pm</Time><Change>+0.12</Change><Open>39.52</Open><High>39.87</High><Low>39.52</Low><Volume>14102644</Volume><MktCap>173.6B</MktCap><PreviousClose>39.45</PreviousClose><PercentageChange>+0.30%</PercentageChange><AnnRange>36.83 - 42.57</AnnRange><Earns>1.87</Earns><P-E>21.10</P-E><Name>Coca-Cola Company</Name></Stock></StockQuotes>]]></con:value></con:property><con:property><con:name>Temp2</con:name><con:value>39.57</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>6ef3f643-dd40-4a6b-8eef-ced4aaa5c016</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="44132464-4e08-4d2a-9a5a-bbd158144176" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase DatabaseData" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="datasource" name="DataSource" id="ee6419df-d0c5-4254-9978-ba0574edb9b0"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.teststeps.WsdlDataSourceTestStep@prepared-properties">&lt;xml-fragment/></con:setting></con:settings><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="JDBC"><con:configuration><driver>oracle.jdbc.driver.OracleDriver</driver><connstr>jdbc:oracle:thin:system/PASS_VALUE@127.0.0.1:1521:xe</connstr><pass>system</pass><query>Select STOCKQUOTE.SYMBOL As STOCKQUOTE_SYMBOL, STOCKQUOTE.PRICE As
+  STOCKQUOTE_PRICE
+From STOCKQUOTE</query><stored-procedure>false</stored-procedure></con:configuration></con:dataSource><con:property>STOCKQUOTE_SYMBOL</con:property><con:property>STOCKQUOTE_PRICE</con:property><con:startRow/><con:endRow/><con:trimValues>false</con:trimValues><con:entitizeValues>false</con:entitizeValues><con:restartOnRun>true</con:restartOnRun><con:expandProperties>false</con:expandProperties></con:config></con:testStep><con:testStep type="request" id="c98b4512-5044-46ca-b7cb-664cdc30ea02" name="MyRequest"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>StockQuoteSoap</con:interface><con:operation>GetQuote</con:operation><con:request name="MyRequest" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="7f4aa703-65d6-4aa9-977a-a4910e4d0bbb"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/stockquote.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <!--Optional:-->
+         
+      <web:symbol>${DataSource#STOCKQUOTE_SYMBOL}</web:symbol></web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="b8a97bb7-71be-464d-9db1-9b8dca90eb2f" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetQuote"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="58f0f0bd-8538-4674-9d28-dfbf0f819f28"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Result</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>MyRequest</con:sourceStep><con:sourcePath>declare namespace ns1='http://www.webserviceX.NET/';
+//ns1:GetQuoteResponse[1]/ns1:GetQuoteResult[1]</con:sourcePath><con:targetType>Temp1</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Target</con:name><con:sourceType>Temp1</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:sourcePath>//Last[1]</con:sourcePath><con:targetType>Temp2</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion TestStep" id="759561d0-ea4d-4c91-8fd6-8bbe0ab6b512"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>c2d39371-6c90-4c5f-9e75-40a2f4f9992d</con:id><con:isGroup>false</con:isGroup><con:sourceId>44132464-4e08-4d2a-9a5a-bbd158144176</con:sourceId><con:propertyName>Temp2</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="25efce29-89a0-4cb4-8ad1-f57881ffed17"><con:configuration><token>${DataSource#STOCKQUOTE_PRICE}</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="2fe507d1-741d-4501-b346-c186efc6c623"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>MyRequest</targetStep></con:config></con:testStep><con:properties><con:property><con:name>Temp1</con:name><con:value><![CDATA[<StockQuotes><Stock><Symbol>KO</Symbol><Last>39.57</Last><Date>8/11/2014</Date><Time>4:00pm</Time><Change>+0.12</Change><Open>39.52</Open><High>39.87</High><Low>39.52</Low><Volume>14102644</Volume><MktCap>173.6B</MktCap><PreviousClose>39.45</PreviousClose><PercentageChange>+0.30%</PercentageChange><AnnRange>36.83 - 42.57</AnnRange><Earns>1.87</Earns><P-E>21.10</P-E><Name>Coca-Cola Company</Name></Stock></StockQuotes>]]></con:value></con:property><con:property><con:name>Temp2</con:name><con:value>39.57</con:value></con:property></con:properties><con:reportParameters/><con:breakPoints><con:testStepId>ee6419df-d0c5-4254-9978-ba0574edb9b0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>c98b4512-5044-46ca-b7cb-664cdc30ea02</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>58f0f0bd-8538-4674-9d28-dfbf0f819f28</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>759561d0-ea4d-4c91-8fd6-8bbe0ab6b512</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>2fe507d1-741d-4501-b346-c186efc6c623</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="82e7b870-436c-4921-a0ea-2dd9d7ff2e3b" failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase CsvFileData" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="datasource" name="DataSource" id="45887f24-ee26-4582-9e41-4cf600b0bdca"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="File"><con:configuration><fileName>C:/Users/ndodda/Desktop/Training/SoapUI/Soap/StockQuote/DataSources/FileData_StockQuote.csv</fileName><separator>,</separator><trim>true</trim><charset>Cp1252</charset><quotedValues>false</quotedValues></con:configuration></con:dataSource><con:property>Symbol</con:property><con:property>Price</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="request" id="d63b4ccf-103d-41ea-94ba-e0341e27cebc" name="MyRequest"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>StockQuoteSoap</con:interface><con:operation>GetQuote</con:operation><con:request name="MyRequest" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="2a883046-fcef-4a75-962f-af76e15babc3"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.webservicex.net/stockquote.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.webserviceX.NET/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetQuote>
+         <!--Optional:-->
+         
+      <web:symbol>${DataSource#Symbol}</web:symbol></web:GetQuote>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="9255e4c9-8db6-4a05-8148-09ccd4bcc3b3" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/GetQuote"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="24c0f6c4-864d-4abd-a4ce-ae368feb24c9"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Result</con:name><con:sourceType>Response</con:sourceType><con:sourceStep>MyRequest</con:sourceStep><con:sourcePath>declare namespace ns1='http://www.webserviceX.NET/';
+//ns1:GetQuoteResponse[1]/ns1:GetQuoteResult[1]</con:sourcePath><con:targetType>Temp1</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>Target</con:name><con:sourceType>Temp1</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:sourcePath>//Last[1]</con:sourcePath><con:targetType>Temp2</con:targetType><con:targetStep>#TestCase#</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="assertionteststep" name="Assertion TestStep" id="c359309a-9b4d-46af-9f34-a38edb53982c"><con:settings/><con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:entry><con:id>c34d2059-c384-481e-8776-a7b63ce6cd63</con:id><con:isGroup>false</con:isGroup><con:sourceId>82e7b870-436c-4921-a0ea-2dd9d7ff2e3b</con:sourceId><con:propertyName>Temp2</con:propertyName><con:assertion type="Simple Contains" name="Contains" id="c0dc4349-806d-426e-b7ec-250dd110efd9"><con:configuration><token>${DataSource#Price}</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion></con:entry></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="0907139c-490d-49ea-a24f-d0ce5d8b58f9"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>MyRequest</targetStep></con:config></con:testStep><con:properties><con:property><con:name>Temp1</con:name><con:value><![CDATA[<StockQuotes><Stock><Symbol>KO</Symbol><Last>39.71</Last><Date>8/12/2014</Date><Time>12:20pm</Time><Change>+0.14</Change><Open>39.56</Open><High>39.84</High><Low>39.54</Low><Volume>5443625</Volume><MktCap>174.2B</MktCap><PreviousClose>39.57</PreviousClose><PercentageChange>+0.35%</PercentageChange><AnnRange>36.83 - 42.57</AnnRange><Earns>1.87</Earns><P-E>21.16</P-E><Name>Coca-Cola Company</Name></Stock></StockQuotes>]]></con:value></con:property><con:property><con:name>Temp2</con:name><con:value>39.71</con:value></con:property></con:properties><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>

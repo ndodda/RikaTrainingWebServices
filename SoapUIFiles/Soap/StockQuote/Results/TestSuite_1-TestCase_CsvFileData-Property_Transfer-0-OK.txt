@@ -1,0 +1,17 @@
+Status: OK
+Time Taken: 8
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Property Transfer
+
+----------------- Messages ------------------------------
+Performed transfer [Result]
+Performed transfer [Target]
+----------------------------------------------------
+Result transferred [[<StockQuotes><Stock><Symbol>PEP</Symbol><Last>91.85</Last><Date>8/15/2014</Date><Time>4:01pm</Time><Change>+0.06</Change><Open>92.10</Open><High>92.75</High><Low>91.29</Low><Volume>3844615</Volume><MktCap>138.4B</MktCap><PreviousClose>91.79</PreviousClose><PercentageChange>+0.07%</PercentageChange><AnnRange>77.01 - 93.09</AnnRange><Earns>4.432</Earns><P-E>20.71</P-E><Name>Pepsico</Name></Stock></StockQuotes>]] from [MyRequest.Response] to [#TestCase#.Temp1]
+------------ source path -------------
+declare namespace ns1='http://www.webserviceX.NET/';
+//ns1:GetQuoteResponse[1]/ns1:GetQuoteResult[1]
+Target transferred [[91.85]] from [#TestCase#.Temp1] to [#TestCase#.Temp2]
+------------ source path -------------
+//Last[1]

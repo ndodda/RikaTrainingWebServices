@@ -1,0 +1,7 @@
+Status: OK
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:30:07 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------

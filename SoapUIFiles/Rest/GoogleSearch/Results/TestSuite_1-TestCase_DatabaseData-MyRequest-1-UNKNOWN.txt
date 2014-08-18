@@ -1,0 +1,44 @@
+Status: UNKNOWN
+Time Taken: 103
+Size: 3279
+Timestamp: Sun Aug 17 22:33:41 PDT 2014
+TestStep: MyRequest
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: https://ajax.googleapis.com
+URL: https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=car
+
+---------------- Request ---------------------------
+Host: [ajax.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET https://ajax.googleapis.com/ajax/services/search/web?v=1.0&q=car HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: ajax.googleapis.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+X-Frame-Options: [SAMEORIGIN]
+X-Embedded-Status: [200]
+Transfer-Encoding: [chunked]
+Date: [Mon, 18 Aug 2014 05:33:44 GMT]
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [1; mode=block]
+Expires: [Fri, 01 Jan 1990 00:00:00 GMT]
+Alternate-Protocol: [443:quic]
+Content-Type: [text/javascript; charset=utf-8]
+Server: [GSE]
+X-Content-Type-Options: [nosniff]
+Pragma: [no-cache]
+Cache-Control: [no-cache, no-store, max-age=0, must-revalidate]
+
+{"responseData": {"results":[{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.cars.com/","url":"http://www.cars.com/","visibleUrl":"www.cars.com","cacheUrl":"http://www.google.com/search?q\u003dcache:H75rMPosXksJ:www.cars.com","title":"New \u003cb\u003eCars\u003c/b\u003e, Used \u003cb\u003eCars\u003c/b\u003e, \u003cb\u003eCar\u003c/b\u003e Reviews | \u003cb\u003eCars\u003c/b\u003e.com","titleNoFormatting":"New Cars, Used Cars, Car Reviews | Cars.com","content":"Use \u003cb\u003eCars\u003c/b\u003e.com to search 2.6 million new \u0026amp; used \u003cb\u003ecar\u003c/b\u003e listings or get a dealer quote. \nOur easy-to-use online tools put you a step ahead in your next vehicle ..."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.car.org/","url":"http://www.car.org/","visibleUrl":"www.car.org","cacheUrl":"http://www.google.com/search?q\u003dcache:dVpiqBZgxjoJ:www.car.org","title":"\u003cb\u003eCALIFORNIA ASSOCIATION OF REALTORS\u003c/b\u003e® - www.\u003cb\u003ecar\u003c/b\u003e.org","titleNoFormatting":"CALIFORNIA ASSOCIATION OF REALTORS® - www.car.org","content":"\u003cb\u003eC.A.R.\u003c/b\u003e is OPPOSING AB 2416 (Stone), a bill that creates a new kind of lien for \nwage claim disputes because it denies due process to the owner of the property,\n ..."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://en.wikipedia.org/wiki/Automobile","url":"http://en.wikipedia.org/wiki/Automobile","visibleUrl":"en.wikipedia.org","cacheUrl":"http://www.google.com/search?q\u003dcache:QJoGPmN8z8UJ:en.wikipedia.org","title":"Automobile - Wikipedia, the free encyclopedia","titleNoFormatting":"Automobile - Wikipedia, the free encyclopedia","content":"An automobile, autocar, motor \u003cb\u003ecar\u003c/b\u003e or \u003cb\u003ecar\u003c/b\u003e is a wheeled motor vehicle used for \ntransporting passengers, which also carries its own engine or motor."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.autotrader.com/","url":"http://www.autotrader.com/","visibleUrl":"www.autotrader.com","cacheUrl":"http://www.google.com/search?q\u003dcache:YKq3QHbl0RwJ:www.autotrader.com","title":"New \u003cb\u003eCars\u003c/b\u003e, Used \u003cb\u003eCars\u003c/b\u003e - Find \u003cb\u003eCars\u003c/b\u003e for Sale and Reviews at \u003cb\u003e...\u003c/b\u003e","titleNoFormatting":"New Cars, Used Cars - Find Cars for Sale and Reviews at ...","content":"Find used \u003cb\u003ecars\u003c/b\u003e and new \u003cb\u003ecars\u003c/b\u003e for sale at AutoTrader.com. With millions of \u003cb\u003ecars\u003c/b\u003e, \nfinding your next new \u003cb\u003ecar\u003c/b\u003e or used \u003cb\u003ecar\u003c/b\u003e and the \u003cb\u003ecar\u003c/b\u003e reviews and information you\u0026#39;re\n ..."}],"cursor":{"resultCount":"312,000,000","pages":[{"start":"0","label":1},{"start":"4","label":2},{"start":"8","label":3},{"start":"12","label":4},{"start":"16","label":5},{"start":"20","label":6},{"start":"24","label":7},{"start":"28","label":8}],"estimatedResultCount":"312000000","currentPageIndex":0,"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026hl\u003den\u0026q\u003dcar","searchResultTime":"0.16"}}, "responseDetails": null, "responseStatus": 200}

@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 56
+Size: 0
+Timestamp: Sat Aug 16 23:03:25 PDT 2014
+TestStep: DataSource
+Error:java.io.FileNotFoundException: C:\Users\ndodda\Desktop\Training\SoapUI\Soap\DataSources\FileData_StockQuote.xlsx (The system cannot find the path specified)
+
+----------------- Messages ------------------------------

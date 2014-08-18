@@ -1,0 +1,63 @@
+Status: OK
+Time Taken: 148
+Size: 1065
+Timestamp: Sun Aug 17 02:41:50 PDT 2014
+TestStep: RequestWeather
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://www.webservicex.net/globalweather.asmx
+
+---------------- Request ---------------------------
+Request Headers: Host : www.webservicex.net
+Content-Length : 370
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : application/soap+xml;charset=UTF-8;action="http://www.webserviceX.NET/GetWeather"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetWeather>
+         <!--Optional:-->
+         <!--Optional:-->
+         <web:CityName>New Delhi</web:CityName>
+         <web:CountryName>India</web:CountryName>
+      </web:GetWeather>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-AspNet-Version : 4.0.30319
+Date : Sun, 17 Aug 2014 09:42:11 GMT
+#status# : HTTP/1.1 200 OK
+Content-Length : 1065
+Content-Type : application/soap+xml; charset=utf-8
+X-Powered-By : ASP.NET
+Server : Microsoft-IIS/7.0
+Cache-Control : private, max-age=0
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetWeatherResponse xmlns="http://www.webserviceX.NET">
+         <GetWeatherResult><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<CurrentWeather>
+  <Location>New Delhi / Palam, India (VIDP) 28-34N 077-07E 233M</Location>
+  <Time>Aug 17, 2014 - 05:00 AM EDT / 2014.08.17 0900 UTC</Time>
+  <Wind> from the W (280 degrees) at 8 MPH (7 KT):0</Wind>
+  <Visibility> 1 mile(s):0</Visibility>
+  <SkyConditions> partly cloudy</SkyConditions>
+  <Temperature> 95 F (35 C)</Temperature>
+  <DewPoint> 69 F (21 C)</DewPoint>
+  <RelativeHumidity> 44%</RelativeHumidity>
+  <Pressure> 29.68 in. Hg (1005 hPa)</Pressure>
+  <Status>Success</Status>
+</CurrentWeather>]]></GetWeatherResult>
+      </GetWeatherResponse>
+   </soap:Body>
+</soap:Envelope>

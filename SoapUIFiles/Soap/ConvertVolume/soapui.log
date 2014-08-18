@@ -1,0 +1,13 @@
+2014-08-17 08:31:57,744 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 08:31:58,520 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 08:32:01,129 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 08:32:01,144 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 08:32:05,126 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/ConvertVolume/SOAPConvertVolume-soapui-project.xml]
+2014-08-17 08:32:05,929 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [SOAPConvertVolume]
+2014-08-17 08:32:05,935 INFO  [SoapUIProTestCaseRunner] Running Project [SOAPConvertVolume], runType = SEQUENTIAL
+2014-08-17 08:32:06,015 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-17 08:32:06,091 INFO  [SoapUIProTestCaseRunner] running step [ChangeVolumeUnit - Request 1]
+2014-08-17 08:32:10,995 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 08:32:11,007 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 4879ms, status: FINISHED
+2014-08-17 08:32:11,015 INFO  [SoapUIProTestCaseRunner] Project [SOAPConvertVolume] finished with status [FINISHED] in 5062ms
+2014-08-17 08:32:12,824 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/ConvertVolume/Results/index.html

@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sun Aug 17 22:33:42 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[XPath Match] XPath Match  FAILED

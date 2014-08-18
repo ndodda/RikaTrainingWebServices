@@ -1,0 +1,330 @@
+2014-08-16 23:06:40,161 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-16 23:06:40,745 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-16 23:06:42,779 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-16 23:06:42,782 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-16 23:06:45,516 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/StockQuote/SOAPStockQuote-soapui-project.xml]
+2014-08-16 23:06:46,139 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [SOAPStockQuote]
+2014-08-16 23:06:46,145 INFO  [SoapUIProTestCaseRunner] Running Project [SOAPStockQuote], runType = SEQUENTIAL
+2014-08-16 23:06:46,185 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase ExcelData]
+2014-08-16 23:06:46,232 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-16 23:06:46,933 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:47,755 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:47,764 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:48,331 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:48,344 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:48,344 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [91.79] in Temp2
+2014-08-16 23:06:48,345 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_ExcelData-Assertion_TestStep-0-FAILED.txt]
+2014-08-16 23:06:48,350 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:48,374 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:49,182 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:49,191 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:49,208 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:49,209 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:49,275 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [39.57] in Temp2
+2014-08-16 23:06:49,275 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_ExcelData-Assertion_TestStep-1-FAILED.txt]
+2014-08-16 23:06:49,282 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:49,290 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase ExcelData], time taken: 2876ms, status: FAILED
+2014-08-16 23:06:49,304 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase DatabaseData]
+2014-08-16 23:06:50,016 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-16 23:06:50,262 INFO  [DBDataSource] Got 2 columns from resultset
+2014-08-16 23:06:50,292 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:50,617 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:50,625 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:50,641 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:50,643 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:50,685 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [91.79] in Temp2
+2014-08-16 23:06:50,685 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_DatabaseData-Assertion_TestStep-0-FAILED.txt]
+2014-08-16 23:06:50,692 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:50,699 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:51,017 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:51,026 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:51,043 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:51,044 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:51,098 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [39.57] in Temp2
+2014-08-16 23:06:51,099 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_DatabaseData-Assertion_TestStep-1-FAILED.txt]
+2014-08-16 23:06:51,105 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:51,113 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase DatabaseData], time taken: 930ms, status: FAILED
+2014-08-16 23:06:51,116 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase CsvFileData]
+2014-08-16 23:06:51,117 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-16 23:06:51,124 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:51,529 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:51,556 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:51,572 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:51,574 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:51,609 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [91.79] in Temp2
+2014-08-16 23:06:51,609 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_CsvFileData-Assertion_TestStep-0-FAILED.txt]
+2014-08-16 23:06:51,612 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:51,632 INFO  [SoapUIProTestCaseRunner] running step [MyRequest]
+2014-08-16 23:06:51,938 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-16 23:06:51,949 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-16 23:06:51,965 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-16 23:06:51,965 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2014-08-16 23:06:52,017 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [39.57] in Temp2
+2014-08-16 23:06:52,017 ERROR [SoapUIProTestCaseRunner] Assertion TestStep failed, exporting to [C:\\Users\\ndodda\\Desktop\\Training\\SoapUI\\Soap\\StockQuote\\Results\TestSuite_1-TestCase_CsvFileData-Assertion_TestStep-1-FAILED.txt]
+2014-08-16 23:06:52,021 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-16 23:06:52,028 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase CsvFileData], time taken: 726ms, status: FAILED
+2014-08-16 23:06:52,030 INFO  [SoapUIProTestCaseRunner] Project [SOAPStockQuote] finished with status [FAILED] in 5874ms
+2014-08-16 23:06:53,301 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/StockQuote/Results/index.html
+2014-08-16 23:06:53,316 ERROR [SoapUIProTestCaseRunner] java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+2014-08-16 23:06:53,329 ERROR [SoapUI] An error occurred [Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+], see error log for details
+2014-08-16 23:06:53,356 ERROR [errorlog] java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)

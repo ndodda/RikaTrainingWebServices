@@ -1,0 +1,28 @@
+2014-08-17 02:41:29,823 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\ext\ojdbc6.jar] to extensions classpath
+2014-08-17 02:41:30,966 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\ndodda\soapui-settings.xml]
+2014-08-17 02:41:33,926 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\scripts]
+2014-08-17 02:41:33,945 INFO  [DefaultSoapUICore] Adding listeners from [C:\Program Files\SmartBear\SoapUI-Pro-5.1.1\bin\listeners\demo-listeners.xml]
+2014-08-17 02:41:40,548 INFO  [WsdlProject] Loaded project from [file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/GlobalWeather/SOAPGlobalWeather-soapui-project.xml]
+2014-08-17 02:41:46,170 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [SOAPGlobalWeather]
+2014-08-17 02:41:46,209 INFO  [SoapUIProTestCaseRunner] Running Project [SOAPGlobalWeather], runType = SEQUENTIAL
+2014-08-17 02:41:46,371 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [TestCase]
+2014-08-17 02:41:46,510 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2014-08-17 02:41:46,653 INFO  [SoapUIProTestCaseRunner] running step [RequestWeather]
+2014-08-17 02:41:48,235 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 02:41:48,239 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-17 02:41:50,720 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 02:41:50,735 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,735 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,735 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,737 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 02:41:50,739 INFO  [SoapUIProTestCaseRunner] running step [RequestWeather]
+2014-08-17 02:41:50,888 INFO  [SoapUIProTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-17 02:41:50,923 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2014-08-17 02:41:50,928 INFO  [SoapUIProTestCaseRunner] running step [Assertion TestStep]
+2014-08-17 02:41:50,931 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,931 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,931 INFO  [SoapUIProTestCaseRunner] Assertion [XPath Match] has status VALID
+2014-08-17 02:41:50,932 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2014-08-17 02:41:50,935 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 4179ms, status: FINISHED
+2014-08-17 02:41:51,023 INFO  [SoapUIProTestCaseRunner] Project [SOAPGlobalWeather] finished with status [FINISHED] in 4790ms
+2014-08-17 02:41:55,004 INFO  [SoapUIProTestCaseRunner] Created report at file:/C:/Users/ndodda/Desktop/Training/SoapUI/Soap/GlobalWeather/Results/index.html

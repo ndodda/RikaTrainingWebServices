@@ -1,0 +1,23 @@
+2014-08-16 22:53:22,477 ERROR [errorlog] java.net.MalformedURLException: no protocol: SOAPCurrencyConverter-soapui-project.xml
+java.net.MalformedURLException: no protocol: SOAPCurrencyConverter-soapui-project.xml
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:231)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectPro.<init>(SourceFile:165)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:28)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:16)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:329)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-16 22:53:22,855 ERROR [errorlog] java.lang.Exception: Failed to load SoapUI project file [SOAPCurrencyConverter-soapui-project.xml]
+java.lang.Exception: Failed to load SoapUI project file [SOAPCurrencyConverter-soapui-project.xml]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:333)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)

@@ -1,0 +1,9 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:03:29 PDT 2014
+TestStep: DataSource Loop
+Error:java.io.FileNotFoundException: C:\Users\ndodda\Desktop\Training\SoapUI\Soap\DataSources\FileData_StockQuote.csv (The system cannot find the path specified)
+
+----------------- Messages ------------------------------
+Current row = 0

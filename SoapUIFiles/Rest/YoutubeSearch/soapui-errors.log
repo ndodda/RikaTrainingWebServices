@@ -1,0 +1,68 @@
+2014-08-17 22:23:58,007 ERROR [errorlog] java.lang.Exception: TestCase [TestCase] failed without assertions
+
+java.lang.Exception: TestCase [TestCase] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-17 22:25:28,028 ERROR [errorlog] java.lang.Exception: TestCase [TestCase] failed without assertions
+
+java.lang.Exception: TestCase [TestCase] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-17 22:28:33,339 ERROR [errorlog] java.net.MalformedURLException: no protocol: SOAPYoutubeSearch-soapui-project.xml
+java.net.MalformedURLException: no protocol: SOAPYoutubeSearch-soapui-project.xml
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:231)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectPro.<init>(SourceFile:165)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:28)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:16)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:329)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-17 22:28:33,853 ERROR [errorlog] java.lang.Exception: Failed to load SoapUI project file [SOAPYoutubeSearch-soapui-project.xml]
+java.lang.Exception: Failed to load SoapUI project file [SOAPYoutubeSearch-soapui-project.xml]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:333)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-17 22:28:54,638 ERROR [errorlog] java.net.MalformedURLException: no protocol: SOAPYoutubeSearch-soapui-project.xml
+java.net.MalformedURLException: no protocol: SOAPYoutubeSearch-soapui-project.xml
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at java.net.URL.<init>(Unknown Source)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:231)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectPro.<init>(SourceFile:165)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:28)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectProFactory.createNew(SourceFile:16)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:329)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-17 22:28:54,868 ERROR [errorlog] java.lang.Exception: Failed to load SoapUI project file [SOAPYoutubeSearch-soapui-project.xml]
+java.lang.Exception: Failed to load SoapUI project file [SOAPYoutubeSearch-soapui-project.xml]
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:333)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)

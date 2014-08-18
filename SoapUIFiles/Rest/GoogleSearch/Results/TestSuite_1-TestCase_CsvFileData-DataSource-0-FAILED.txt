@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 75
+Size: 0
+Timestamp: Sun Aug 17 22:31:37 PDT 2014
+TestStep: DataSource
+Error:java.io.FileNotFoundException: C:\Users\ndodda\Desktop\Training\SoapUI\Rest\DataSources\FileData_GoogleSearch.csv (The system cannot find the path specified)
+
+----------------- Messages ------------------------------

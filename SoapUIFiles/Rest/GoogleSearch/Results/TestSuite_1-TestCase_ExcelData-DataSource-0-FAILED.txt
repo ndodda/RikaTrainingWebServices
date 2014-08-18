@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 145
+Size: 0
+Timestamp: Sun Aug 17 22:31:21 PDT 2014
+TestStep: DataSource
+Error:java.io.FileNotFoundException: C:\Users\ndodda\Desktop\Training\SoapUI\Rest\DataSources\FileData_GoogleSearch.xlsx (The system cannot find the path specified)
+
+----------------- Messages ------------------------------

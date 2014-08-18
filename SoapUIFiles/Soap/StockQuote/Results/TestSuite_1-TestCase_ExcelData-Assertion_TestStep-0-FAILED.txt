@@ -1,0 +1,8 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:48 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED

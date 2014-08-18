@@ -1,0 +1,47 @@
+Status: OK
+Time Taken: 99
+Size: 376
+Timestamp: Sun Aug 17 21:44:21 PDT 2014
+TestStep: add - Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: http://ws1.parasoft.com/glue/calculator
+
+---------------- Request ---------------------------
+Request Headers: Host : ws1.parasoft.com
+Content-Length : 293
+SOAPAction : "add"
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cal="http://www.parasoft.com/wsdl/calculator/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:add>
+         <cal:x>15</cal:x>
+         <cal:y>5</cal:y>
+      </cal:add>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Date : Mon, 18 Aug 2014 04:33:08 GMT
+#status# : HTTP/1.1 200 OK
+Content-Length : 376
+Content-Type : text/xml; charset=UTF-8
+Server : TME-GLUE/4.1.2
+
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <n:addResponse xmlns:n="http://www.parasoft.com/wsdl/calculator/">
+         <n:Result xsi:type="xsd:float">20.0</n:Result>
+      </n:addResponse>
+   </soap:Body>
+</soap:Envelope>

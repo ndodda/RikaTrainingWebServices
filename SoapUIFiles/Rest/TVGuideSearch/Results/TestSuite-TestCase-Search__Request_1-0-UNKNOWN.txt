@@ -1,0 +1,1426 @@
+Status: UNKNOWN
+Time Taken: 547
+Size: 68601
+Timestamp: Sun Aug 17 23:45:39 PDT 2014
+TestStep: Search - Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: http://www.tvguide.com
+URL: http://www.tvguide.com/search/index.aspx?keyword=big%20brother
+
+---------------- Request ---------------------------
+Host: [www.tvguide.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Connection: [Keep-Alive]
+
+GET http://www.tvguide.com/search/index.aspx?keyword=big%20brother HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: www.tvguide.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [15283]
+Expires: [Mon, 18 Aug 2014 06:45:43 GMT]
+X-UA-Compatible: [IE=edge,chrome=1]
+Set-Cookie: [adNetwork=8264; domain=tvguide.com; path=/, adBase=aw-tvguide; domain=tvguide.com; path=/]
+Connection: [keep-alive]
+Server: [Microsoft-IIS/7.5]
+X-Powered-By: [ASP.NET]
+X-Real-Server: [ws238.phx2.cbsig.net]
+Cache-Control: [max-age=0, no-cache, no-store]
+Pragma: [no-cache]
+Vary: [Accept-Encoding]
+Date: [Mon, 18 Aug 2014 06:45:43 GMT]
+Content-Encoding: [gzip]
+Content-Type: [text/html; charset=utf-8]
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"beacon-3.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"3f9fb3df7c","applicationID":"2111385","transactionName":"ZVdSMkFQCkUCVEwLDVwdcTVjHhdTAkVbCk1bXFQDSx8FRRNP","queueTime":0,"applicationTime":199,"ttGuid":"B7CA75AAFCE128A9","agent":"js-agent.newrelic.com/nr-411.min.js"}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQcAUFNACgIBVVJaAg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){return u?u-=1:r("err",[s||new UncaughtException(t,e,n)]),"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(d);if(f&&(r.rxSize=f),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var f=0;u>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",f="attachEvent",c=(""+location).split("?")[0],p=e.exports={offset:i(),origin:c,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),d=this,f=r&&r(a,d)||{}}catch(c){i([c,"",[a,d,s],f])}o(e+"start",[a,d,s],f);try{return n=t.apply(d,a)}catch(p){throw o(e+"err",[a,d,p],f),p}finally{o(e+"end",[a,d,n],f)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,d="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,d?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+    
+    
+    
+    <title>Search results for: big brother</title>
+
+    
+
+    <!-- import global head -->
+    
+
+<script src="//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js" data-apikey="7edaeafa4bea20c5ba34000c002a6d83" data-appversion="2014.03.07" ></script>
+<script src="http://static.tvgcdn.net/extimg/listings-assets/js/logger-921a844c7e7423335f5b88a26aa879bc.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="//fonts.cbsi.com/yjh3que.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<meta charset="utf-8" />
+<meta name="apple-itunes-app" content="app-id=333647776, affiliate-data=Bs9ZhlULz2w"/>
+
+<!-- //////// STYLES ////////// -->
+<script type="text/javascript" charset="utf-8">
+	var loadCSS = [];
+</script>
+
+<!-- home css -->
+
+
+<!-- global css  -->
+
+<script type="text/javascript" charset="utf-8">
+	loadCSS.push('http://www.tvguide.com/HandlerCache/css_global.ashx?v=20140818');
+</script>
+
+
+<!-- listings -->
+
+
+<!-- bare css -->
+
+
+<!-- ovg -->
+
+
+<!-- video/ovg -->
+
+
+<!-- sports -->
+
+
+<!-- sky css -->
+
+
+<!-- ipad -->
+
+
+<!--[if lte IE 8]>
+<script type="text/javascript" charset="utf-8">
+	loadCSS.push('http://www.tvguide.com/styles/hacks/global-ie8.css');
+</script>
+<![endif]-->
+
+<!--[if lte IE 7]>
+<script type="text/javascript" charset="utf-8">
+	loadCSS.push('http://www.tvguide.com/styles/hacks/global-ie7.css');
+</script>
+<![endif]-->
+
+<!-- style override -->
+<script type="text/javascript" charset="utf-8">
+	loadCSS.push('http://www.tvguide.com/Refresh/css/bs3grid/bs3grid.css');
+	loadCSS.push('/Refresh/css/site.css');
+	loadCSS.push('/Refresh/css/sidebar.css');
+</script>
+
+
+
+<!-- //////// HEAD SCRIPTS ////////// -->
+<!--[if lt IE 9]>
+	<script src="http://static.tvgcdn.net/extimg/scripts/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+<!--[if (gte IE 9) | (!IE)]><!-->
+	<script src="http://static.tvgcdn.net/extimg/scripts/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+<!--<![endif]-->
+<!--[if lte IE 9]>
+	<script src="http://static.tvgcdn.net/extimg/listings-assets/js/ieshim-e38a9f29c3c9fcf6d574d49e75b934f2.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+
+
+<script src="http://static.tvgcdn.net/extimg/scripts/tvg-bundle.min.js?v=20140818" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	if(window.LazyLoad) {
+		LazyLoad.css(loadCSS);
+	}
+</script>
+<script src="http://www.tvguide.com/Script/tvgnocache.ashx?gridads=siteads.js&compress=true&newadsjson=http%3A%2F%2Fstatic.tvgcdn.net%2Fad-assets%2Fconfig%2Fweb_prod.json" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+	var mapiHost = "mobileapi.tvguide.com";
+	var listingsServiceUrl = "http://mobilelistings.tvguide.com/listingsweb/ws/rest/";
+	var listingsHost = "mobilelistings.tvguide.com";
+	var staticHost = "static.tvgcdn.net"; 
+	// Set a default for adConfig
+	if(typeof(adConfig) == 'undefined') {
+		adConfig = false;
+	}
+	
+	if(typeof(staticHost) == 'undefined') {
+		staticHost = 'static.tvgcdn.net';
+	}
+</script>
+
+<!-- home -->
+
+
+<!-- global -->
+
+<script src="http://www.tvguide.com/HandlerCache/js_global.ashx?v=20140818" type="text/javascript" charset="utf-8"></script>
+
+
+<!-- listings -->
+
+
+<!-- video -->
+
+
+<!-- sports -->
+
+
+<!-- //////// OTHER ////////// -->
+
+<!-- feeds -->
+<link rel="alternate" type="application/rss+xml" title="Breaking News" href="http://rss.tvguide.com/breakingnews" />
+<link rel="alternate" type="application/rss+xml" title="Online Video Guide Top Picks" href="http://rss.tvguide.com/VideoSearch?primary=top+videos&amp;top+video=TV+Guide+Picks&amp;source=rss" />
+<link rel="alternate" type="application/rss+xml" title="Photo Galleries" href="http://rss.tvguide.com/photogallery" />
+
+<!-- plgugins -->
+<link href="https://plus.google.com/108793896387511546174/" rel="publisher" />
+
+<style type="text/css">
+.bna-mytvg-home { background-image: url('/images/global/dvr_bna_green.jpg'); }
+.bna-mytvg-object { background-image: url('/images/global/dvr_bna_green.jpg'); }
+</style>
+
+    
+<link rel="stylesheet" type="text/css" href="/styles/news.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/search.css" />
+
+    <script type="text/javascript" language="javascript" src="/script/search_div_slider.js"></script>
+
+    <!-- AdSense Script begins -->
+    
+      
+      
+      
+      
+    
+    <!-- AdSense Script ends -->
+
+
+    
+
+
+
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement("script");
+gads.async = true;
+gads.type = "text/javascript";
+var useSSL = "https:" == document.location.protocol;
+gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+var node =document.getElementsByTagName("script")[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+function getAdsUUID() { var d = new Date().getTime(), r, cbsitmpguid; cbsitmpguid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function( c ) { r = ( d + Math.random()*16 )%16 | 0; d = Math.floor( d/16 ); return ( c == 'x' ? r : ( r&0x7|0x8 ) ).toString( 16 ); }); return cbsitmpguid; }
+var cbsiftag, ftagmatch, ftagregex = /[\^\s\W]ftag\=([^\?\&\/]+)/i; if (ftagmatch = ftagregex.exec(document.location)) { cbsiftag = ftagmatch[1]; }
+var cbsivguid = getAdsUUID();
+var adslots = {};
+googletag.cmd.push(function() {
+  adslots['omnibar_ad'] = googletag.defineSlot('/8264/aw-tvguide/other',[980,45],'GPT000_omnibar').addService(googletag.pubads()).setTargeting('pos','top').setCollapseEmptyDiv(true,true);
+  adslots['magazine_top'] = googletag.defineSlot('/8264/aw-tvguide/other',[320,50],'GPT001_magazine').addService(googletag.pubads()).setTargeting('pos','top');
+  adslots['Skin'] = googletag.defineSlot('/8264/aw-tvguide/other',[1680,1050],'GPT002_Skin').addService(googletag.pubads()).setTargeting('pos','top');
+  adslots['leader_plus_top'] = googletag.defineSlot('/8264/aw-tvguide/other',[[728,90],[728,91],[970,66],[970,150],[970,250],[980,66],[980,150],[980,250]],'GPT003_Banner').addService(googletag.pubads()).setTargeting('pos','top');
+  adslots['mpu_top'] = googletag.defineSlot('/8264/aw-tvguide/other',[[300, 250],[300, 600]],'GPT004_MPU').addService(googletag.pubads()).setTargeting('pos','top');
+  adslots['leader_bottom'] = googletag.defineSlot('/8264/aw-tvguide/other',[[728,90],[728,92],[970,66]],'GPT005_728x90_bottom').addService(googletag.pubads()).setTargeting('pos','bottom');
+  adslots['intromercial'] = googletag.defineOutOfPageSlot('/8264/aw-tvguide/other','GPT006_Intromercial').addService(googletag.pubads()).setCollapseEmptyDiv(true,true);
+  googletag.pubads().setTargeting('vguid', cbsivguid);
+  if(cbsiftag){googletag.pubads().setTargeting('ftag', cbsiftag);}
+  googletag.pubads().setTargeting('provider', $.cookie('Provider'));
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().enableAsyncRendering();
+  googletag.enableServices();
+});
+</script>
+
+</head>
+
+<!-- -->
+<body>
+
+    <div id="wrap">
+
+    <!-- header -->
+    <div id='omnibar_ad'><div id='GPT000_omnibar' style='display:none;'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT000_omnibar');});</script></div></div>
+
+
+<div id="header">
+
+    <div class="header-level-1">
+        <ul class="header-level-1 wrapper">
+            <li class="header-level-1-item" id="logo-wrap"><a href="http://www.tvguide.com" class="header-brand">TV Guide</a></li>
+            <li class="header-level-1-item" id="search-wrap">
+                
+
+<!-- ajax search form -->
+<form class="header-level-1-search autocomplete-form" action="/search/index.aspx" method="get">
+
+    <fieldset>
+        <input disabled
+        
+        
+        data-type="ajax-search"
+        type="text"
+        name="keyword"
+        value="big brother"
+        class="header-level-1-search-input search-input"
+        placeholder="Search"
+        data-tvg-ui=true
+        data-tvg-placeholder="Search"
+        autocomplete="off" />
+    </fieldset>
+
+    <div class="result-pane">
+        <h3>Search for <span></span></h3>
+        <ul></ul>
+    </div>
+
+    <!-- for lazy initialization aka ezadder -->
+    
+
+</form>
+
+            </li>
+            <li class="header-level-1-item last" id="user-links-wrap">
+                
+<span class="header-level-1-auth"><span id="multi_login_username_0"></span></span>
+
+<span id="multi_login_info_0" style="display:inline"> </span>
+<span id="multi_login_status_0">
+    <span id="mls_login_0" class="mls_login"><a class="header-level-1-auth" href="/AMP/Login.aspx" rel="login" data-login="site">Sign In</a></span>
+    <span id="mls_logout_0" class="mls_logout" style="display:none;"><a class="header-level-1-auth" href="javascript:TVGOL.master.urs.logout();" rel="logout"> Sign Out</a></span>
+    <span id="mls_reg_0" > / <a class="header-level-1-auth" href="/AMP/Registration.aspx" rel="register"> Sign Up</a></span>
+    <span id="mls_profile_0"  style="display:none;"> / <a class="header-level-1-auth" href="/AMP/UpdateProfile.aspx"> My Profile</a></span>
+ </span>
+
+
+            </li>
+            <li class="header-level-1-item" id="header-ad">
+                <div id='magazine_top'><div id='GPT001_magazine'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT001_magazine');});</script></div></div>
+
+            </li>
+        </ul>
+    </div>
+    <!-- nav -->
+    <div class="header-level-2" id="tvg-nav">
+        
+<ul class="header-level-2 wrapper">
+	
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/" class="header-link">Home</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/Listings/" class="header-link">What's on TV</a>
+		
+			<span class="header-level-2-submenu header-level-2-submenu-dual">
+			<span class="header-level-2-submenu-separator"></span>
+		
+				<ul class="header-level-2-submenu-items">
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/Listings/" class="header-link">TV Listings</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/new-tonight" class="header-link">New Tonight</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/fall-preview/fall-schedule.aspx" class="header-link">Day-by-Day Fall TV Schedule</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/watch-live" class="header-link">Today's Live Sports</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/listings" class="header-link">Sports Listings</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nfl" class="header-link">NFL Schedule</a></li>
+				
+				</ul>
+				<ul class="header-level-2-submenu-items">
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nhl" class="header-link">NHL Schedule</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nba" class="header-link">NBA Schedule</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://movies.tvguide.com/movies-on-demand" class="header-link">Movies on Demand</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/soap-operas" class="header-link">Soaps</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/watchlist" class="header-link">Watchlist</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/watchlist" class="header-link">Your Watchlist</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://video.tvguide.com/videochannels/Celebrity+Watchlists" class="header-link">Celebrity Watchlists</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/watchlist/news/" class="header-link">News</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/watchlist/friends-favorites/" class="header-link">Friends' Facebook Favorites</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/watchlist/tweets/" class="header-link">Latest Tweets</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/watchlist/watchlist-video.aspx" class="header-link">What is a Watchlist?</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/news" class="header-link">News</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/news" class="header-link">Today's News</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/fall-preview/" class="header-link">Fall Preview</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/News/Fall-TV-Schedule-1005618.aspx" class="header-link">Fall TV Scorecard</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/video/player.aspx" class="header-link">TV Guide Video Exclusives</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/episode-recaps" class="header-link">TV Show Recaps</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/sports/watch-live" class="header-link">Sports</a>
+		
+			<span class="header-level-2-submenu header-level-2-submenu-dual">
+			<span class="header-level-2-submenu-separator"></span>
+		
+				<ul class="header-level-2-submenu-items">
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/watch-live" class="header-link">Today's Live Sports</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/listings" class="header-link">Sports Listings</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nfl" class="header-link">NFL</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/college-football" class="header-link">NCAA Football</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/college-basketball" class="header-link">NCAA Basketball</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/baseball" class="header-link">MLB</a></li>
+				
+				</ul>
+				<ul class="header-level-2-submenu-items">
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nba" class="header-link">NBA</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/mls" class="header-link">MLS</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/wnba" class="header-link">WNBA</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/sports/nhl" class="header-link">NHL</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://video.tvguide.com/episodes.aspx" class="header-link">Full Episodes</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://video.tvguide.com/" class="header-link">Online Video Guide</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/PhotoGallery/" class="header-link">Photos</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/emmys/" class="header-link">2014 Emmy Awards</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/oscars/" class="header-link">2014 Academy Awards</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/golden-globes/" class="header-link">2014 Golden Globe Awards</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/grammys/" class="header-link">2014 Grammy Awards</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/special/fall-preview/" class="header-link">Spotlight</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/fall-preview/" class="header-link">Fall Preview</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/summer-tv/" class="header-link">Summer Preview</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/special/crime-time/" class="header-link">Crime Time</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/keywords/movie-scoop" class="header-link">Movies</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://movies.tvguide.com/movies-tv" class="header-link">Movies on TV</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://movies.tvguide.com/movies-on-demand" class="header-link">Movies On Demand</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://movies.tvguide.com/movies-trailers" class="header-link">Trailers</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/Special/TVGN/" class="header-link">TVGN</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/Special/TVGN/" class="header-link">TVGN</a></li>
+				</ul></span></li>
+		<li class="header-level-2-item">
+		<a href="http://www.tvguide.com/keywords/tv-guide-magazine" class="header-link">TV Guide Magazine</a>
+		
+				<span class="header-level-2-submenu">
+				<span class="header-level-2-submenu-separator"></span>
+				<ul class="header-level-2-submenu-items">
+			
+				<li class="header-level-2-submenu-item"><a href="http://subscribe.tvguidemagazine.com/loc/TVM/dropdown88" class="header-link">Subscribe - Save 88%</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/keywords/matt-roush" class="header-link">TVGM Critics</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/keywords/the-biz" class="header-link">The Biz</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/keywords/tv-guide-magazine-photos" class="header-link">Photos</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguide.com/keywords/tv-guide-magazine-videos" class="header-link">Videos</a></li>
+				
+				<li class="header-level-2-submenu-item"><a href="http://www.tvguidemagsales.com/" class="header-link">Media Kit</a></li>
+				</ul></span></li></ul>
+
+    </div>
+
+</div>
+
+
+    <div class="row" id="mantle_skin">
+        <!-- wallpaper -->
+        <div id='Skin' class='tvgadskin'><div id='GPT002_Skin'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT002_Skin');});</script></div></div>
+
+
+        <!-- wrapper -->
+        <div id="container-wrap">
+
+            <div id="container" class="container">
+
+                <form method="post" action="index.aspx?keyword=big+brother" id="aspnetForm">
+<div>
+<!--VIEWSTATE Removed-->
+</div>
+
+
+                    <!-- 728x90-top -->
+                    <div id='leader_plus_top'><div id='GPT003_Banner'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT003_Banner');});</script></div></div>
+
+
+                    
+
+                    <!-- left col wrap -->
+                    <div id="lt-col">
+                        
+    <div class="search-results">
+        <!-- Google Search Results start here -->
+        <h2 class="section-header"><span>Search results for <span>big brother</span></span></h2>
+        
+        
+        <div class="search-show">
+            <span class="search-show-prefix">Show:</span> <span class="button-on">All</span> | <a href="http://video.tvguide.com/results.aspx?primary=Search&searchvalue=big brother&source=direct&searchtype=search_new">Videos</a>
+        </div>
+        
+        <div id="listings-block" class="listings-blockFade" style="display: none;">
+        </div>
+        
+        <div id="ctl00_ArticleContent1_tblPH" style="line-height: 130%; overflow: hidden;">
+            <!-- AdSense implementation begins -->
+            
+            
+
+                
+                
+
+                     
+
+                     
+
+                      
+
+                             
+                                     
+                                     
+                                     
+                                     
+                                     
+                         
+
+                        
+                          
+                          
+                          
+                          
+                        
+
+                        
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                        
+
+                        
+                            
+                        
+
+                        
+
+                
+
+            
+
+            <!-- YAHOO ADS -->
+            
+
+            <!-- AdSense implementation ends -->
+            
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/664372">
+                                TV Show - Big Brother (2011)</a></h4>
+                        <div>
+                            Taking place inside the confides of one house, Big Brother is a social experiment-cum-reality show, where the object of the game is to be the last remaining housemate in the house.</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/664372</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/664372">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/664372">
+                                        TV Listings</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/200033">
+                                TV Show - Big Brother (2000)</a></h4>
+                        <div>
+                            The lives of disparate housemates are captured on-camera 24/7 over a three-month period, with one person getting the boot every week (originally it was every two weeks). The last to leave wins $500,000. The intrusive Orwellian premise drew its share of critical barbs, but the series was popular ...</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/200033</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/200033">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/200033">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/news/200033">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/326425">
+                                TV Show - Big Brother (2011)</a></h4>
+                        <div>
+                            Strangers living together in a camera-filled house attempt to win $500,000 by being the last one standing after three months of confinement in the 13th installment of the reality series.</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/326425</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/326425">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/photos/326425">
+                                        Photos</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/326425">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/news/326425">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/437846">
+                                TV Show - Big Brother</a></h4>
+                        <div>
+                            </div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/437846</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/437846">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/437846">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/news/437846">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/553349">
+                                TV Show - Big Brother (2013)</a></h4>
+                        <div>
+                            Strangers living together in a camera-filled house attempt to win $500,000 by being the last one standing after three months of confinement in the 15th installment of the reality series.</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/553349</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/553349">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/photos/553349">
+                                        Photos</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/553349">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/news/553349">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother/663351">
+                                TV Show - Big Brother (2014)</a></h4>
+                        <div>
+                            Strangers living together in a camera-filled house attempt to win $500,000 by being the last one standing after three months of confinement in the 16th installment of the reality series.</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother/663351</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/663351">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/photos/663351">
+                                        Photos</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/tv-listings/663351">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother/news/663351">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://movies.tvguide.com/brother/133349">
+                                Movie - Brother (1998)</a></h4>
+                        <div>
+                            Post-Soviet St. Petersburg joins 1920s Chicago and 1990s L.A. as the perfect locale for movie mobster mayhem in this altogether thrilling new film from Russian director Alexei Balabanov. Danila (Sergei Bodorov Jr.) is an aimless, recently demobilized army clerk
+who, at his mother's urging, travels ...</div>
+                        <div class="search-results-url">
+                            http://movies.tvguide.com/brother/133349</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://movies.tvguide.com/brother/133349">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://movies.tvguide.com/brother/review/133349">
+                                        Review</a></li>
+                                
+                                    <li><a href="http://movies.tvguide.com/brother/tv-listings/133349">
+                                        TV Listings</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://movies.tvguide.com/big-brother-trouble/135926">
+                                Movie - Big Brother Trouble (2001)</a></h4>
+                        <div>
+                            Nerdy kids, junior jocks and parents looking to temporarily forget the realities of child-rearing can all waste time together watching this inane family picture about sibling rivalry and soccer. For 11-year-old Mitch Dobson (Michael Suchanek), it's not easy living in the shadow of his popular older ...</div>
+                        <div class="search-results-url">
+                            http://movies.tvguide.com/big-brother-trouble/135926</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://movies.tvguide.com/big-brother-trouble/135926">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://movies.tvguide.com/big-brother-trouble/review/135926">
+                                        Review</a></li>
+                                
+                                    <li><a href="http://movies.tvguide.com/big-brother-trouble/tv-listings/135926">
+                                        TV Listings</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother-6/191406">
+                                TV Show - Big Brother 6 (2005)</a></h4>
+                        <div>
+                            Fourteen houseguests try to avoid eviction in order to win at least $500,000 or a possible $1 million. The sixth edition of the reality series is dubbed `Summer of Secrets.' The biggest secret is that, unbeknownst to the other participants, each person is paired with another housemate with whom they ...</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother-6/191406</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-6/191406">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-6/photos/191406">
+                                        Photos</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-6/tv-listings/191406">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-6/news/191406">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                    <div class="search-result">
+                        <h4>
+                            <a href="http://www.tvguide.com/tvshows/big-brother-4/195508">
+                                TV Show - Big Brother 4 (2003)</a></h4>
+                        <div>
+                            Thirteen houseguests try to avoid eviction in order to win the grand prize of $500,000. The fourth edition of the reality series is dubbed `X-Factor.' The reason for that name: eight of the players learn upon entering the house that they are being reunited with an ex-boyfriend or ex-girlfriend with ...</div>
+                        <div class="search-results-url">
+                            http://www.tvguide.com/tvshows/big-brother-4/195508</div>
+                        <div>
+                            
+                                    <ul class="clear">
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-4/195508">
+                                        Main</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-4/tv-listings/195508">
+                                        TV Listings</a></li>
+                                
+                                    <li><a href="http://www.tvguide.com/tvshows/big-brother-4/news/195508">
+                                        News</a></li>
+                                
+                                    </ul>
+                        </div>
+                    </div>
+                
+                
+            <!-- AdSense Bottom ad begins -->
+            
+            
+            <!-- AdSense Bottom ad ends -->
+            <div class="search-paging">
+                
+     <div class="paginate-c">
+           <ul id="ctl00_ArticleContent1_btmPager_PageNumbers" class="paginate"><li class='paginate-current firstitem'>1</li><li><a href='/search/index.aspx?keyword=big%20brother&page=2'>2</a></li><li><a href='/search/index.aspx?keyword=big%20brother&page=3'>3</a></li><li><a href='/search/index.aspx?keyword=big%20brother&page=4'>4</a></li><li class='next'><a class="submit" href='/search/index.aspx?keyword=big%20brother&page=2'> next <i class="fa fa-chevron-right"></i></a></li></ul>
+     </div>
+
+            </div>
+        </div>
+        
+        
+        
+
+         
+
+              
+
+                     
+                             
+                             
+                             
+                             
+                             
+                 
+            
+            
+        
+        <!-- Google Search Results end here -->
+    </div>
+
+                    </div>
+
+                    <!-- right column wrap -->
+                    <div id="rt-col">
+                        
+    <div class="cfr-b-w ad-300x250">
+        <div id='mpu_top'><div id='GPT004_MPU'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT004_MPU');});</script></div></div>
+
+    </div>
+
+    <!-- AdSense Right Div begins -->
+    
+    <!-- AdSense Right Div ends -->
+
+    
+    <!-- ListingsSearch JavaScript Starting -->
+
+    <script language="javascript" type="text/javascript">
+        var ajaxBaseUrl = "/search/listings.aspx?keyword=big+brother&serviceid=";
+        var serviceId = "";
+        var ajaxUrl = "";
+        var ajax = null;
+        var lsCcallStarted = null;
+        var lsCallFinished = null;
+
+        $get = function(x) {
+            return $('#' + x)[0];
+        };
+
+        function displayListings(response) {
+            var html = response;
+            var listingsDiv;
+            var lsElapsedTime = 0;
+
+            lsCallFinished = new Date();
+
+            // kludge: it seems an empty html document from .net is 4 bytes long.
+            if (html != null && html != "undefined" && html.length > 4) {
+                listingsDiv = $get("listings-block");
+                listingsDiv.innerHTML = html;
+                listingsDiv.style.display = "";
+                SearchDivSlider();
+            } else {
+
+                // Message to display if search didn't find anything.
+
+                listingsDiv = $get("listings-block");
+                listingsDiv.innerHTML = "<div class=\"search-tvlistings-notfound\">No TV Listings related to your search found.</div>";
+                //listingsDiv.style.color = "red";
+                $(document).ready(function() {
+                    $("#search-tvlistings-notfound").fadeTo(4000, 0.0);
+                });
+            }
+
+            lsElapsedTime = (lsCallFinished.getTime() - lsCallStarted.getTime()) / 1000;    // to convert to seconds from milliseconds
+
+            // nathan, insert call to omniture here.           
+        }
+
+        function searchListings_PageLoad() {
+            serviceId = readCookie("ServiceID");
+            if (serviceId == null)
+                serviceId = "80001"; // eastern national
+
+            ajaxUrl = ajaxBaseUrl + serviceId;
+
+            lsCallStarted = new Date();
+            $.get(ajaxUrl, displayListings);
+
+            listingsDiv = $get("listings-block");
+
+            //Message to display while searching
+            listingsDiv.innerHTML = "<div class=\"search-tvlistings-looking\">Looking for TV Listings related to your search <img src=\"/images/search/loading_15x15.gif\" alt=\"\" border=\"0\" /></div>";
+            listingsDiv.style.display = "inline";
+            $(document).ready(function() {
+                $("#listings-blockFade").show("fast");
+            });
+        }
+
+        $(document).ready(function() { searchListings_PageLoad(); });
+    </script>
+
+    <!-- ListingsSearch JavaScript Completed -->
+
+                    </div>
+
+                    <!-- 728x90-bottom -->
+                    <div id='leader_bottom'><div id='GPT005_728x90_bottom'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT005_728x90_bottom');});</script></div></div>
+
+
+                    <div class="clearfix"></div>
+
+                </form><!-- form -->
+
+            </div><!-- container -->
+
+            <div id="bt-row"></div><!-- bottome row -->
+
+        </div><!-- container-wrap -->
+
+    </div><!-- row -->
+
+    </div><!-- wrap -->
+
+    <!-- footer -->
+    
+
+<div id="mostpop-wrap">
+    
+
+<div class="mostpop-box">
+    <div class="mostpop-header">
+        <h2 class="mostpop-header-text"><strong>TV GUIDE</strong> Users' Most Popular</h2>
+        <hr class="header-border"/>
+    </div>
+
+    <ul class="mostpop-container">
+        <li class="mostpop-item mostpop-tv">
+            <h4 class="mostpop-subheader"><i class="fa-video-camera fa fa-lg"></i> <a class="mostpop-subheader-link" href="http://www.tvguide.com/top-tv-shows">TV Shows</a></h4>
+            <ol class="mostpop-list">
+                
+                        <li class="mostpop-list-item"><i class="item-index">1</i> <a href="http://www.tvguide.com/tvshows/under-the-dome/509353">Under the Dome</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">2</i> <a href="http://www.tvguide.com/tvshows/true-blood/294732">True Blood</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">3</i> <a href="http://www.tvguide.com/tvshows/big-brother/663351">Big Brother</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">4</i> <a href="http://www.tvguide.com/tvshows/the-bachelorette/100447">The Bachelorette</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">5</i> <a href="http://www.tvguide.com/tvshows/the-last-ship/557390">The Last Ship</a></li>
+                    
+            </ol>
+        </li>
+
+        <li class="mostpop-item mostpop-celeb">
+            <h4 class="mostpop-subheader"><i class="fa-users fa fa-lg"></i> <a class="mostpop-subheader-link" href="http://www.tvguide.com/top-celebrities">Celebrities</a></h4>
+            <ol class="mostpop-list">
+                
+                        <li class="mostpop-list-item"><i class="item-index">1</i> <a href="http://www.tvguide.com/celebrities/kate-middleton/285554">Kate Middleton</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">2</i> <a href="http://www.tvguide.com/celebrities/prince-william/263997">Prince William</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">3</i> <a href="http://www.tvguide.com/tvshows/kim-kardashian/456709">Kim Kardashian</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">4</i> <a href="http://www.tvguide.com/celebrities/jennifer-lawrence/288670">Jennifer Lawrence</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">5</i> <a href="http://www.tvguide.com/celebrities/beyoncé-knowles/141903">Beyoncé</a></li>
+                    
+            </ol>
+        </li>
+
+        <li class="mostpop-item mostpop-movies">
+            <h4 class="mostpop-subheader"><i class="fa-film fa fa-lg"></i> <a class="mostpop-subheader-link" href="http://www.tvguide.com/top-movies">Movies</a></h4>
+            <ol class="mostpop-list">
+                
+                        <li class="mostpop-list-item"><i class="item-index">1</i> <a href="http://movies.tvguide.com/teenage-mutant-ninja-turtles/660620">Teenage Mutant Ninja Turtles</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">2</i> <a href="http://movies.tvguide.com/guardians-of-the-galaxy/660618">Guardians Of The Galaxy</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">3</i> <a href="http://movies.tvguide.com/into-the-storm/682254">Into The Storm</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">4</i> <a href="http://movies.tvguide.com/the-hundred-foot-journey/682252">The Hundred Foot Journey</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">5</i> <a href="http://movies.tvguide.com/lucy/660621">Lucy</a></li>
+                    
+            </ol>
+        </li>
+
+        <li class="mostpop-item mostpop-videos">
+            <h4 class="mostpop-subheader"><i class="fa-desktop fa fa-lg"></i> <a class="mostpop-subheader-link" href="http://www.tvguide.com/social/videos">Top Videos</a></h4>
+            <ol class="mostpop-list">
+                
+                        <li class="mostpop-list-item"><i class="item-index">1</i> <a href="http://video.tvguide.com/The+Vampire+Diaries/I+Know+What+You+Did+Last+Summer/20608385/tvo-297527-season-5-episode-1?autoplay=1&partnerid=TVGuide">The Vampire Diaries</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">2</i> <a href="http://video.tvguide.com/Greys+Anatomy/Greys+Anatomy+Seal+Our+Fate/20997700/tvo-191535-season-10-episode-1?autoplay=1&partnerid=TVGuide">Grey's Anatomy</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">3</i> <a href="http://video.tvguide.com/How+I+Met+Your+Mother/The+Locket/20562806/tvo-192257-season-9-episode-1?autoplay=1&partnerid=TVGuide">How I Met Your Mother</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">4</i> <a href="http://video.tvguide.com/Once+Upon+a+Time/Once+Upon+a+Time/8106099/tvo-319533-season-5-episode-5?autoplay=1&partnerid=TVGuide">Once Upon a Time</a></li>
+                    
+                        <li class="mostpop-list-item"><i class="item-index">5</i> <a href="http://video.tvguide.com/Sons+of+Anarchy/Straw/20521053/tvo-295134-season-6-episode-1?autoplay=1&partnerid=TVGuide">Sons of Anarchy</a></li>
+                    
+            </ol>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+<div id="footer">
+    <div class="footer-container wrapper">
+        <div class="footer-row row">
+            <div class="footer-primary">
+                <a href="http://www.tvguide.com" class="footer-brand">TV Guide</a>
+                <ul class="footer-links">
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/services/help.aspx" class="footer-link">Help</a></li>
+                    <li class="footer-links-item"><a href="http://www.cbsinteractive.com/advertise/" class="footer-link">Advertise</a></li>
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/services/copyright.aspx" class="footer-link">Copyright Policy</a></li>
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/services/staff.aspx" class="footer-link">About Us</a></li>
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/sitemap/sitemap.aspx" class="footer-link">Sitemap</a></li>
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/tools/rss.aspx" class="footer-link">RSS</a></li>
+                    <li class="footer-links-item"><a href="http://www.tvguide.com/tools/mobile.aspx" class="footer-link">Mobile</a></li>
+                </ul>
+                <span class="footer-copyright">&copy; 2014 CBS Interactive Inc. All rights reserved.</span>
+                <ul class="footer-links">
+                    <li class="footer-links-item"><a href="http://legalterms.cbsinteractive.com/privacy" class="footer-link">Privacy Policy</a></li>
+                    <li class="footer-links-item"><a href="http://legalterms.cbsinteractive.com/adchoice" class="footer-link">Ad Choice</a></li>
+                    <li class="footer-links-item"><a href="http://legalterms.cbsinteractive.com/terms-of-use" class="footer-link">Terms of Use</a></li>
+                    <li class="footer-links-item"><a href="http://legalterms.cbsinteractive.com/eula" class="footer-link">Mobile User Agreement</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-mobile">
+                <h5 class="footer-mobile-header">Watch TV. Anytime. Anywhere.</h5>
+                <p class="footer-mobile-copy">Download the TV Guide app for iPhone, iPad and Android!</p>
+                <ul id="mobile-icos">
+                    <li>
+                        <a id="ios-m-ico" href="https://itunes.apple.com/us/app/id333647776" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a id="android-m-ico" href="https://play.google.com/store/apps/details?id=com.tvguidemobile" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- //////// FOOTER SCRIPTS ////////// -->
+<script type="text/javascript" charset="UTF-8">
+var masterPageId = "tvguideglobal";
+</script>
+<!-- tvgol.master.js has depedencies can't laszydoaded and requires masterPageId -->
+<script type="text/javascript" charset="utf-8" src="/Refresh/js/tvgol.master.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	var footerJS = [
+		
+		
+		
+	];
+
+	var fb_app_id = "", facebookDisabled = "false";
+</script>
+
+
+
+<!-- ovg -->
+
+
+<!--[if lt IE 9]>
+<script type="text/javascript" charset="utf-8">
+	footerJS.push('//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js');
+	footerJS.push('//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js');
+</script>
+<![endif]-->
+
+<!--[if lte IE 8]>
+<script type="text/javascript" charset="utf-8">
+	footerJS.push('//cdnjs.cloudflare.com/ajax/libs/json3/3.2.3/json3.min.js');
+</script>
+<![endif]-->
+
+<!-- scripts -->
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		
+		
+		checkSlots = [
+			{
+				name: 'leader_plus_top',
+				runCount: 0,
+				run: null
+			},
+			{
+				name: 'leader_top',
+				runCount: 0,
+				run: null
+			},
+			{
+				name: 'leader_bottom',
+				runCount: 0,
+				run: null
+			}
+		];
+		
+		googletag.cmd.push(function() {
+			for (var key in checkSlots) {
+				(function(key) {
+					checkSlots[key].run = setInterval(function() {
+						try {
+							if(checkSlots[key].runCount > 20) {
+								clearInterval(checkSlots[key].run);
+								return;
+							}
+		
+							checkSlots[key].runCount++;
+				
+							var adUnit;
+				
+							if(typeof(adslots[checkSlots[key].name]) != 'undefined') {
+								adUnit = adslots[checkSlots[key].name];
+							} else {
+								clearInterval(checkSlots[key].run);
+								return;
+							}
+				
+							// Bail out if it hasn't been initialized yet
+							if(typeof(adUnit.getSlotId) != 'function') {
+								return;
+							}
+			
+							var div = $('#' + adUnit.getSlotId().getDomId());
+		
+							if(div.length <= 0) {
+								clearInterval(checkSlots[key].run);
+								return;
+							}
+		
+							var width = div.find('iframe').first().width();
+		
+							if(width > 0) {
+								if(width == 980) {
+									div.parent('div').removeClass().addClass('ad-980-width-top');
+									clearInterval(checkSlots[key].run);
+									return;
+								} else if(width == 970) {
+									div.parent('div').removeClass().addClass('ad-970-width-top');
+									clearInterval(checkSlots[key].run);
+									return;
+								}
+							}
+						} catch(err) {
+							console.error(err);
+						}
+					}, 500);
+				})(key);
+			}
+		});
+	});
+</script>
+
+<!-- facebook -->
+<div id="fb-root"></div>
+
+<script type="text/javascript" charset="utf-8">
+	if(window.LazyLoad) {
+		LazyLoad.js(footerJS);
+	}
+</script>
+
+
+
+ 
+
+<script type="text/javascript" src="/refresh/js/tvgol.master.tealium.min.js"></script>
+
+<!-- New CBSi Tracking Codes + APEX -->
+
+
+    
+	    
+	        
+	    
+	    
+	    
+	    
+		
+		
+			
+		
+    
+
+
+
+<!--
+Adobe Marketing Cloud Tag Loader Code
+Copyright 1996-2013 Adobe, Inc. All Rights Reserved
+More info available at http://www.adobe.com/solutions/digital-marketing.html
+-->
+
+<!-- CBSI Omniture Tracking Codes begins -->
+
+    
+
+
+
+
+    
+    
+    
+
+<!-- CBSI Omniture Tracking Codes ends -->
+
+<!-- Begin BlueKai Tag begins -->
+
+
+<!-- Begin BlueKai Tag ends -->
+
+
+<!-- REVENUE SCIENCE PIXELLING CODE killed by Todd, 11/28/2012 -->
+
+<!-- Begin comScore Tag -->
+
+    
+    
+
+    
+        
+        
+        
+    
+
+
+       
+
+<!-- End comScore Tag -->
+
+<!-- BEGIN GOOGLE ANALYTICS -->
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+
+        
+        
+
+        
+        
+            
+            
+            
+            
+            
+            
+            
+        
+
+        
+        
+                
+                
+                
+                
+                    
+                    
+                    
+                
+        
+
+    
+
+<!-- END GOOGLE ANALYTICS -->
+
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+
+    
+        
+        
+            
+        
+        
+    
+
+
+  
+    
+    
+  
+
+<!-- END Nielsen Online SiteCensus V6.0 -->
+<!-- WebTrends SmartSource Data Collector (c)1996-2004 NetIQ Corporation.  All rights reserved.  -->
+<!-- $DateTime: 2004/05/03 13:43:43 $ -->
+<script language="javascript" type="text/javascript">
+gVersion="1.0";
+</script>
+<script language="Javascript1.1" type="text/javascript">
+gVersion="1.1";
+</script>
+<script language="Javascript1.2" type="text/javascript">
+gVersion="1.2";
+var RE={"%09":/\t/g,"%20":/ /g,"%23":/\#/g,"%26":/\&/g,"%2B":/\+/g,"%3F":/\?/g,"%5C":/\\/g};
+</script>
+<script language="Javascript1.3" type="text/javascript">
+gVersion="1.3";
+</script>
+<script language="Javascript1.4" type="text/javascript">
+gVersion="1.4";
+</script>
+<script language="Javascript1.5" type="text/javascript">
+gVersion="1.5";
+</script>
+<script language="javascript" type="text/javascript">
+
+try { collectWebtrendsData(); }
+catch (err) { }
+
+</script>
+<!-- END OF Data Collection Server TAG -->
+
+
+
+<div id='intromercial'><div id='GPT006_Intromercial'><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('GPT006_Intromercial');});</script></div></div>
+
+
+<!-- TVGWEB-2434 -->
+<script type='text/javascript'>var b = document.createElement("script"); b.type = "text/javascript"; b.async = !0; var c = ["http://988e3b255aa765925d6b-662669ee3e2497ef5de1fff529ecac92.r54.cf2.rackcdn.com", "https://1a1d70f8e97771f9fab1-662669ee3e2497ef5de1fff529ecac92.ssl.cf2.rackcdn.com"]; b.src = ("https:" == document.location.protocol ? c[1] : c[0]) + "/ba3zi27t2tcg.js"; var d = document.getElementsByTagName("script")[0]; d.parentNode.insertBefore(b, d);</script>
+
+
+</body>
+</html>
+<!-- Page Built: 8/18/2014 6:45:43 AM GMT -->
+<!-- Image Server: http://static.tvgcdn.net -->
+<!-- TvgWebPage: /search/index.aspx -->
+<!-- Web Server: WS238 -->
+<!-- Request: /search/index.aspx?keyword=big%20brother -->
+<!-- Ad Unit: /8264/aw-tvguide/other -->
+<!-- DLL Build: 7/24/2014 3:41:26 PM -->

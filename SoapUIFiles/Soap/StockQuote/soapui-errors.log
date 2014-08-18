@@ -1,0 +1,380 @@
+2014-08-12 09:40:39,941 ERROR [errorlog] java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:34 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:34 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:36 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:36 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:37 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:37 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:34 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:34 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:36 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:36 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:37 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Tue Aug 12 09:40:37 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-16 23:00:15,119 ERROR [errorlog] java.lang.Exception: Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:00:12 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:00:12 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+java.lang.Exception: Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:00:12 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:00:12 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-16 23:03:30,447 ERROR [errorlog] java.lang.Exception: Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:03:28 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:03:28 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+java.lang.Exception: Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:03:28 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:03:28 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
+2014-08-16 23:06:53,356 ERROR [errorlog] java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+java.lang.Exception: Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase ExcelData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:49 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase DatabaseData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+Contains in [TestCase CsvFileData] failed;
+[Missing token [39.57] in Temp2]
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Sat Aug 16 23:06:51 PDT 2014
+TestStep: Assertion TestStep
+
+----------------- Messages ------------------------------
+[Contains] Simple Contains  FAILED
+TestCase [TestCase ExcelData] failed without assertions
+TestCase [TestCase DatabaseData] failed without assertions
+TestCase [TestCase CsvFileData] failed without assertions
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:499)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:415)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:188)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:123)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:98)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.init(SourceFile:94)
+	at com.eviware.soapui.SoapUIProTestCaseRunner.main(SourceFile:62)
